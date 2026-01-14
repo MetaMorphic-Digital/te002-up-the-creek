@@ -1,0 +1,646 @@
+name: Gospog de la Première Récolte
+type: threat
+img: modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting-large.webp
+items:
+  - _id: 4iPtliIkvQzy5NAy
+    name: Dénué d'intelligence
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>Les gospogs sont immunisés aux interactions Intimidation et
+        Provocation.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      229W3PtpCQ0fUX2D: 3
+      tYOADsaIFknEkG7T: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!YzuXeq8izmqQ2hZH.4iPtliIkvQzy5NAy'
+  - _id: V4T1pyCvKVRhqPyy
+    name: Mort-vivant
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: 300000
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>les gospogs sont immunisés contre le poison et les autres effets en
+        rapport avec la respiration, l’alimentation ou d’autres processus
+        nécessaires aux vivants.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      229W3PtpCQ0fUX2D: 3
+      tYOADsaIFknEkG7T: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!YzuXeq8izmqQ2hZH.V4T1pyCvKVRhqPyy'
+  - _id: KsqUDgL3sotimHYQ
+    name: Infatigable
+    type: specialability-rollable
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      core: {}
+    system:
+      ap: null
+      attackWith: airVehicles
+      chatNote: ''
+      damage: null
+      description: <p>les gospogs ignorent les points de Choc.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      229W3PtpCQ0fUX2D: 3
+      tYOADsaIFknEkG7T: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!YzuXeq8izmqQ2hZH.KsqUDgL3sotimHYQ'
+  - _id: wyCfh2kXNVhcNWSr
+    name: Peur
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>un gospog est un amalgame horrible d’un cadavre et de plantes en
+        décomposition. Réussir un test de Volonté ou d’Esprit ou devenir Très
+        déstabilisé.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      229W3PtpCQ0fUX2D: 3
+      tYOADsaIFknEkG7T: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!YzuXeq8izmqQ2hZH.wyCfh2kXNVhcNWSr'
+  - _id: WLY1VxRwT3Mg5JzV
+    name: Griffes
+    type: customAttack
+    img: systems/torgeternity/images/icons/bite-icon.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+    system:
+      ap: 0
+      attackWith: unarmedCombat
+      chatNote: ''
+      damage: 10
+      description: >-
+        <p><span
+        style="font-family:var(--font-primary);font-size:var(--font-size-14)">dommages
+        Force +2 (10).</span></p>
+      damageType: flat
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+      price: ''
+      value: 0
+      secondaryAxiom: none
+      bonus: 2
+      equipped: false
+      minStrength: null
+      notes: ''
+      transferenceID: WLY1VxRwT3Mg5JzV
+    ownership:
+      default: 0
+      229W3PtpCQ0fUX2D: 3
+      tYOADsaIFknEkG7T: 3
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!YzuXeq8izmqQ2hZH.WLY1VxRwT3Mg5JzV'
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  shock:
+    max: 0
+    value: 0
+  wounds:
+    max: 0
+    value: 0
+  attributes:
+    charisma:
+      base: 5
+    dexterity:
+      base: 7
+    mind:
+      base: 7
+    spirit:
+      base: 7
+    strength:
+      base: 8
+  other:
+    cosm: none
+    possibilities: 0
+    piety: 0
+  skills:
+    airVehicles:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    alteration:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    apportation:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    beastRiding:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    computers:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    conjuration:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    divination:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    dodge:
+      baseAttribute: dexterity
+      adds: 1
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    energyWeapons:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    evidenceAnalysis:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    faith:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    find:
+      baseAttribute: mind
+      adds: 1
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    fireCombat:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    firstAid:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    heavyWeapons:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    intimidation:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: interaction
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    kinesis:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    landVehicles:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    language:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    lockpicking:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    maneuver:
+      baseAttribute: dexterity
+      adds: 1
+      isFav: false
+      groupName: interaction
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    medicine:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    meleeWeapons:
+      baseAttribute: dexterity
+      adds: 1
+      isFav: false
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    missileWeapons:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    persuasion:
+      baseAttribute: charisma
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    precognition:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    profession:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    reality:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    scholar:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    science:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    stealth:
+      baseAttribute: dexterity
+      adds: 1
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    streetwise:
+      baseAttribute: charisma
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    survival:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    taunt:
+      baseAttribute: charisma
+      adds: 0
+      isFav: false
+      groupName: interaction
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    telepathy:
+      baseAttribute: charisma
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    tracking:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    trick:
+      baseAttribute: mind
+      adds: 0
+      isFav: false
+      groupName: interaction
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    unarmedCombat:
+      baseAttribute: dexterity
+      adds: 3
+      isFav: false
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    waterVehicles:
+      baseAttribute: dexterity
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    willpower:
+      baseAttribute: spirit
+      adds: 0
+      isFav: false
+      groupName: other
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+  details:
+    description: >-
+      <p>Les gospogs de la Première Récolte sont des cadavres humains composés
+      de chair putride et de plantes en putréfaction. Ils sont très répandus
+      dans tous les royaumes, un gracieux présent de mort du Décharné aux autres
+      Pillards de Réalité. Ils s’adaptent très facilement et existent dans
+      chaque royaume sans provoquer de Contradiction.</p>
+    sizeBonus: normal
+    possibilityPotential: Jamais
+    clearance: alpha
+  editstate: false
+ownership:
+  default: 0
+  tYOADsaIFknEkG7T: 3
+  VAnYow5sWS9EJzo0: 3
+  LklvxovTKD9CgQGJ: 3
+prototypeToken:
+  flags: {}
+  name: GOSPOG DE LA PREMIÈRE RÉCOLTE
+  displayName: 40
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: shock
+  bar2:
+    attribute: wounds
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: torgeternity
+  systemVersion: 13.15.0
+  createdTime: 1768385446055
+  modifiedTime: 1768385919615
+  lastModifiedBy: LklvxovTKD9CgQGJ
+_id: YzuXeq8izmqQ2hZH
+sort: 200000
+_key: '!actors!YzuXeq8izmqQ2hZH'
+

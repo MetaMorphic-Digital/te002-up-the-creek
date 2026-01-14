@@ -22,12 +22,14 @@ pages:
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1689450619421
       lastModifiedBy: h2oE5Ikd7rcZX2S7
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.7Qhn3uaX0S5UymrN'
   - name: Credits
     type: text
@@ -92,18 +94,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.flussaufwaerts-journals.TxllkYWiZ1HfGD1d.JournalEntryPage.eDwb4AW3rPCrL9F9
+      core: {}
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.flussaufwaerts-journals.TxllkYWiZ1HfGD1d.JournalEntryPage.eDwb4AW3rPCrL9F9
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.eDwb4AW3rPCrL9F9'
   - name: Über dieses Abenteuer
     type: text
@@ -154,18 +157,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.flussaufwaerts-journals.9D2vNFkc5qzr5haD.JournalEntryPage.c4fdqVvFj3qslbJu
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 3.0.0
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1689670056687
       lastModifiedBy: CtisFurQNe9h7ABb
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.flussaufwaerts-journals.9D2vNFkc5qzr5haD.JournalEntryPage.c4fdqVvFj3qslbJu
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.c4fdqVvFj3qslbJu'
   - name: Einleitung
     type: text
@@ -187,18 +191,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.flussaufwaerts-journals.Uz2M0vWcH5hc6jeb.JournalEntryPage.rUVTwORrzZFMpiVv
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 3.7.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1716105595784
       lastModifiedBy: GJLkrWXIPZRbEU79
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.flussaufwaerts-journals.Uz2M0vWcH5hc6jeb.JournalEntryPage.rUVTwORrzZFMpiVv
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.rUVTwORrzZFMpiVv'
   - name: 'Szene Eins: Die Reise beginnt'
     type: text
@@ -220,18 +225,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.flussaufwaerts-journals.QZSAhzDkxFbcP4rh.JournalEntryPage.fmP9ln5s6gXrJ6BX
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 3.7.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1716106506844
       lastModifiedBy: GJLkrWXIPZRbEU79
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.flussaufwaerts-journals.QZSAhzDkxFbcP4rh.JournalEntryPage.fmP9ln5s6gXrJ6BX
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.fmP9ln5s6gXrJ6BX'
   - name: 'Szene Zwei: Land in Sicht!'
     type: text
@@ -428,18 +434,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.flussaufwaerts-journals.LsvdV1vprMtYvYrE.JournalEntryPage.9KudkSSB2Q9UNafE
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 3.7.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1716106597283
       lastModifiedBy: GJLkrWXIPZRbEU79
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.flussaufwaerts-journals.LsvdV1vprMtYvYrE.JournalEntryPage.9KudkSSB2Q9UNafE
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.9KudkSSB2Q9UNafE'
   - name: Cosm-Karten
     type: text
@@ -506,34 +513,37 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.flussaufwaerts-journals.Zdrjd0WiyAktFz0S.JournalEntryPage.zacYKjSo8DKrRajt
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 3.7.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1716106706177
       lastModifiedBy: GJLkrWXIPZRbEU79
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.flussaufwaerts-journals.Zdrjd0WiyAktFz0S.JournalEntryPage.zacYKjSo8DKrRajt
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!kveLBiiqShAXTBqp.zacYKjSo8DKrRajt'
 flags: {}
 _stats:
   systemId: torgeternity
   systemVersion: 3.7.3
-  coreVersion: '12.331'
+  coreVersion: '13.351'
   createdTime: 1663756749053
   modifiedTime: 1716106706177
   lastModifiedBy: GJLkrWXIPZRbEU79
   compendiumSource: null
   duplicateSource: null
+  exportSource: null
 _id: kveLBiiqShAXTBqp
 folder: null
 sort: 0
 ownership:
   default: 0
   4kr6bmxq7tmWuB59: 3
+categories: []
 _key: '!journal!kveLBiiqShAXTBqp'
 

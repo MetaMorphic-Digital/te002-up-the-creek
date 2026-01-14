@@ -1,0 +1,767 @@
+name: Edeinos-Krieger
+type: threat
+img: modules/te002-up-the-creek/portraits/Edeinos_Warrior.Avatar.webp
+items:
+  - _id: 4APjQdoRsWJp7gGm
+    name: Wirbelwind
+    type: perk
+    img: systems/torgeternity/images/icons/reality-icon.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      category: prowess
+      cosm: none
+      description: >-
+        <p>Der Krieger hat dafür trainiert, in einem Tanz des Todes auf einen
+        Schlag eine große Zahl von Feinden zu treffen. Er darf beim Einsatz von
+        @UUID[Compendium.te001-core-rulebook.grw-de-grw.Qlx6yGF0Mmo6Xzrv.JournalEntryPage.41rZYYhaMC2T260D#mehrfach-zielauswahl]{Mehrfach-Zielauswahl}
+        bei einem bewaffneten oder unbewaffneten Nahkampfangriff die ersten
+        beiden Malus-Punkte ignorieren.</p>
+      prerequisites: Geschicklichkeit 8+
+      generalContradiction: false
+      pulpPowers:
+        enhancement01:
+          description: ''
+          taken: false
+          title: ''
+        enhancement02:
+          description: ''
+          taken: false
+          title: ''
+        enhancement03:
+          description: ''
+          taken: false
+          title: ''
+        enhancement04:
+          description: ''
+          taken: false
+          title: ''
+        enhancement05:
+          description: ''
+          taken: false
+          title: ''
+        enhancement06:
+          description: ''
+          taken: false
+          title: ''
+        enhancement07:
+          description: ''
+          taken: false
+          title: ''
+        enhancement08:
+          description: ''
+          taken: false
+          title: ''
+        enhancement09:
+          description: ''
+          taken: false
+          title: ''
+        enhancement10:
+          description: ''
+          taken: false
+          title: ''
+        enhancement11:
+          description: ''
+          taken: false
+          title: ''
+        enhancement12:
+          description: ''
+          taken: false
+          title: ''
+        enhancement13:
+          description: ''
+          taken: false
+          title: ''
+        enhancement14:
+          description: ''
+          taken: false
+          title: ''
+        enhancement15:
+          description: ''
+          taken: false
+          title: ''
+        enhancementNumber: 0
+        limitation01: ''
+        limitation02: ''
+        limitation03: ''
+        limitation04: ''
+        limitation05: ''
+        limitation06: ''
+        limitation07: ''
+        limitation08: ''
+        limitation09: ''
+        limitation10: ''
+        limitationNumber: 0
+      timestaken: '1'
+      secondaryAxiom: none
+      transferenceID: null
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+      VAnYow5sWS9EJzo0: 3
+      93AMwcGe6H37rcPA: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!79QlSpFHAUG1waUy.4APjQdoRsWJp7gGm'
+  - name: Hrockt-Sprossenspeer
+    type: missileweapon
+    img: systems/torgeternity/images/icons/missile-weapon-icon.webp
+    system:
+      cosm: livingLand
+      description: >-
+        <p>Zum Ausrüsten als Nahkampfwaffe s.
+        @UUID[Compendium.te001-core-rulebook.grw-de-ausruestung.Item.VRuK7Un8bvtpUk3s]{Hrockt-Sprossenspeer}</p><p>Die
+        Sprossen sind im Wachstum weich und biegsam, werden aber hart wie Stahl,
+        nachdem sie abgeschnitten und getrocknet wurden. Am häufigsten trifft
+        man sie in Form von Speeren an, die auch als Projektilwaffe geworfen
+        werden können.</p>
+      price: '40'
+      value: 8
+      secondaryAxiom: none
+      ammo:
+        max: 1
+        value: 1
+      ap: 0
+      attackWith: missileWeapons
+      chatNote: ''
+      damage: 2
+      damageType: strengthPlus
+      equipped: true
+      minStrength: null
+      notes: ''
+      range: 10/20/40
+      axioms:
+        tech: 3
+        magic: 0
+        social: 0
+        spirit: 0
+      traits: []
+      bonus: 2
+      loadedAmmo: null
+      gunner: null
+      gunnerFixedSkill: 0
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      93AMwcGe6H37rcPA: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _id: 0XSDwGGLql1cOxJ6
+    sort: 0
+    _key: '!actors.items!79QlSpFHAUG1waUy.0XSDwGGLql1cOxJ6'
+  - _id: UnE9fcjNsX0k2LVW
+    name: Hrockt-Sprossenspeer
+    type: meleeweapon
+    img: systems/torgeternity/images/icons/axe-icon.webp
+    effects: []
+    folder: null
+    sort: 18200000
+    flags:
+      core: {}
+    system:
+      cosm: livingLand
+      description: >-
+        <p>@UUID[Compendium.te001-core-rulebook.grw-de-grw.JournalEntry.Qlx6yGF0Mmo6Xzrv.JournalEntryPage.7GGUUHzuYIqGPXDO#wurfwaffe:]{Wurfwaffe}</p><p>Zum
+        Ausrüsten als Projektilwaffe s.
+        @UUID[Compendium.te001-core-rulebook.grw-de-ausruestung.Item.oA1Elm4eVdBcBSn2]{Hrockt-Sprossenspeer}</p><p>Die
+        Sprossen sind im Wachstum weich und biegsam, werden aber hart wie Stahl,
+        nachdem sie abgeschnitten und getrocknet wurden. Am häufigsten trifft
+        man sie in Form von Speeren an, die auch als Projektilwaffe geworfen
+        werden können.</p>
+      price: '40'
+      value: 8
+      ap: 0
+      attackWith: meleeWeapons
+      bonus: 2
+      chatNote: ''
+      damage: 2
+      damageType: strengthPlus
+      equipped: true
+      notes: Wurfwaffe
+      secondaryAxiom: none
+      minStrength: null
+      traits:
+        - thrown
+      axioms:
+        tech: 2
+        magic: 0
+        social: 0
+        spirit: 0
+    ownership:
+      default: 0
+      1pSzpSNrhKGYYcib: 3
+      VAnYow5sWS9EJzo0: 3
+      93AMwcGe6H37rcPA: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!79QlSpFHAUG1waUy.UnE9fcjNsX0k2LVW'
+  - _id: yAVCS5XK4uMPBjU4
+    name: Biss/Krallen
+    type: customAttack
+    img: systems/torgeternity/images/icons/bite-icon.webp
+    effects: []
+    folder: u2i5RWbZB4iUXKBt
+    sort: 0
+    flags:
+      core: {}
+    system:
+      ap: 0
+      attackWith: unarmedCombat
+      chatNote: ''
+      damage: 2
+      description: '<p>Schaden: <em>Stärke</em> +2 (12)</p>'
+      damageType: strengthPlus
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+      price: ''
+      value: 0
+      secondaryAxiom: none
+      bonus: 2
+      equipped: false
+      minStrength: null
+      notes: ''
+      transferenceID: yAVCS5XK4uMPBjU4
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!79QlSpFHAUG1waUy.yAVCS5XK4uMPBjU4'
+effects:
+  - origin: Compendium.te001-core-rulebook.grw-de-bedrohungen.Actor.t9sDWEpMVNTAkIoP
+    duration:
+      rounds: null
+      startTime: 0
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    name: Schock +2
+    img: icons/svg/aura.svg
+    _id: 6nf5Jyx3GNWusI5x
+    type: base
+    system:
+      transferOnAttack: false
+      applyIfAttackTrait: []
+      applyIfDefendTrait: []
+    changes:
+      - key: system.shock.max
+        mode: 2
+        value: '2'
+        priority: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.effects!79QlSpFHAUG1waUy.6nf5Jyx3GNWusI5x'
+folder: null
+flags:
+  core: {}
+system:
+  attributes:
+    charisma:
+      base: 5
+    dexterity:
+      base: 9
+    mind:
+      base: 6
+    spirit:
+      base: 8
+    strength:
+      base: 10
+  other:
+    cosm: none
+    possibilities: 0
+    piety: 0
+  shock:
+    max: 10
+    value: 0
+  skills:
+    airVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    alteration:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    apportation:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    beastRiding:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    computers:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    conjuration:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    divination:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    dodge:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    energyWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    evidenceAnalysis:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    faith:
+      adds: 1
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    find:
+      adds: 2
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    fireCombat:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    firstAid:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    heavyWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    intimidation:
+      adds: 2
+      baseAttribute: spirit
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: false
+      isThreatSkill: false
+    kinesis:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    landVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    language:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    lockpicking:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    maneuver:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: false
+      isThreatSkill: false
+    medicine:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    meleeWeapons:
+      adds: 2
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    missileWeapons:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    persuasion:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    precognition:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    profession:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    reality:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    scholar:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    science:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    stealth:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    streetwise:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    survival:
+      adds: 2
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    taunt:
+      adds: 0
+      baseAttribute: charisma
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    telepathy:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    tracking:
+      adds: 2
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    trick:
+      adds: 0
+      baseAttribute: mind
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    unarmedCombat:
+      adds: 2
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    waterVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    willpower:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+  wounds:
+    max: 0
+    value: 0
+  details:
+    description: >-
+      <p>@UUID[Compendium.te002-up-the-creek.flussaufwaerts-handouts-de.JournalEntry.NJ40He1HiWWUjeyG.JournalEntryPage.xorjvkcr8JXOostG]{Edeinos
+      Krieger}</p><p
+      class="moreheight">@UUID[Compendium.te002-up-the-creek.flussaufwaerts-handouts-de.JournalEntry.NJ40He1HiWWUjeyG.JournalEntryPage.m0LJhgvBcHdkCyGb]{Bedrohungskarte
+      - Edeinos Krieger}</p><p>Edeinos werden vom Tag ihrer Geburt an im Kampf
+      trainiert. Sie wachsen mit einem Speer in ihren Händen auf und sind beim
+      Verfolgen und Erlegen ihrer Beute von großer Wildheit erfüllt, bevor sie
+      sie mit ihren Zähnen in Stücke reißen.</p>
+    sizeBonus: normal
+    clearance: alpha
+    possibilityPotential: Selten (2)
+  editstate: false
+ownership:
+  default: 0
+  9Q0XnqFwko7hRlvL: 3
+  VAnYow5sWS9EJzo0: 3
+  LklvxovTKD9CgQGJ: 3
+prototypeToken:
+  flags: {}
+  name: Edeinos-Krieger
+  displayName: 40
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 30
+  bar1:
+    attribute: wounds
+  bar2:
+    attribute: shock
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: modules/te002-up-the-creek/portraits/Edeinos_Warrior.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: true
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: torgeternity
+  systemVersion: 13.15.0
+  createdTime: 1768385547578
+  modifiedTime: 1768386741027
+  lastModifiedBy: LklvxovTKD9CgQGJ
+_id: 79QlSpFHAUG1waUy
+sort: 0
+_key: '!actors!79QlSpFHAUG1waUy'
+

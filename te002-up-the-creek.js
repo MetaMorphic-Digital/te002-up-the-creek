@@ -12,32 +12,36 @@ Hooks.on("ready", async function() {
 
     //----rendering welcome message
 
-    let welcomeMessage = await renderTemplate("modules/te002-up-the-creek/welcomeMessage.hbs");
+    let welcomeMessage = await foundry.applications.handlebars.renderTemplate("modules/te002-up-the-creek/welcomeMessage.hbs");
 
     if (game.settings.get("te002-up-the-creek", "welcomeMessage") == true) {
-        let d = new Dialog({
-            title: "Welcome to the Up the Creek Introductory Adventure Module!",
-            content: welcomeMessage,
-            buttons: {
-                one: {
-                    icon: '<i class="fas fa-check"></i>',
-                    label: "OK",
-                },
-                two: {
-                    icon: '<i class="fas fa-ban"></i>',
-                    label: "Don't show again",
-                    callback: () =>
-                        game.settings.set("te002-up-the-creek", "welcomeMessage", false),
-                },
+        new foundry.applications.api.DialogV2({
+            window: {
+              title: "Welcome to the Up the Creek Introductory Adventure Module!",
             },
-        }, {
-            left: 100,
-            top: 100,
-            height: 425,
-            width: 450,
-            resizable: false
-        });
-        d.render(true);
+            content: welcomeMessage,
+            buttons: [
+                {
+                  action: "ok",
+                  icon: '<i class="fas fa-check"></i>',
+                  label: "OK",
+                },
+                {
+                  action: "hide",
+                  icon: '<i class="fas fa-ban"></i>',
+                  label: "Don't show again",
+                  callback: () =>
+                    game.settings.set("te002-up-the-creek", "welcomeMessage", false),
+                },
+              ],
+              position: {
+                left: 100,
+                top: 100,
+                //height: 425,
+                width: 450,
+                //resizable: false
+              }
+        }).render(true);
     }
 
 

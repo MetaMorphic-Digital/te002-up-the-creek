@@ -3,162 +3,142 @@ type: threat
 img: modules/te002-up-the-creek/portraits/Edeinos_Warrior.Avatar.webp
 items:
   - _id: mWTECTfjDArkl6Wb
-    name: LANCE EN BOIS D’HROCKT
+    name: ': Lance en bois d’hrockt'
     type: missileweapon
     sort: 1300000
     flags:
-      core:
-        sourceId: Item.S8owyAeIShXmzlKg
+      core: {}
     img: icons/weapons/staves/staff-nature.webp
     effects: []
     folder: null
     system:
-      cosm: Terre vivante
+      cosm: none
       description: >-
-        <p><span style="font-family: 'Palatino Linotype'; text-align: justify;
-        background-color: rgba(255, 247, 247, 0.25);">le rameau est souple quand
-        il est humide et qu&rsquo;il pousse, mais aussi dur que du fer quand il
-        est coup&eacute; et s&eacute;ch&eacute;. Il est souvent cultiv&eacute;
-        de sorte qu&rsquo;il ait la forme d&rsquo;une lance droite avec une
-        pointe tranchante. Cette lance est commun&eacute;ment utilis&eacute;e
-        comme arme de jet.</span></p>
-      techlevel: 3
+        <p><span style="font-family:'Palatino
+        Linotype';text-align:justify;background-color:rgba(255, 247, 247,
+        0.25)">le rameau est souple quand il est humide et qu’il pousse, mais
+        aussi dur que du fer quand il est coupé et séché. Il est souvent cultivé
+        de sorte qu’il ait la forme d’une lance droite avec une pointe
+        tranchante. Cette lance est communément utilisée comme arme de
+        jet.</span></p>
       price: '40'
       value: 8
-      attackWith: meleeWeapons
-      damageType: strengthPlus
-      damage: 2
-      ap: 0
       ammo:
         max: null
         value: null
-      minStrength: null
-      range: 10/20/40
-      notes: '-'
-      chatNote: ''
-    ownership:
-      default: 0
-    _stats:
-      systemId: null
-      systemVersion: null
-      coreVersion: '12.327'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: Item.S8owyAeIShXmzlKg
-      duplicateSource: null
-    _key: '!actors.items!nkSMwnvE2NEqjHfF.mWTECTfjDArkl6Wb'
-  - _id: 8Tt7z2BFJ2CnfvaC
-    name: Morsure/Griffes
-    type: specialability-rollable
-    sort: 1400000
-    flags: {}
-    img: icons/weapons/fist/claw-leather-black.webp
-    effects: []
-    folder: null
-    system:
-      description: <p>Dommages Force +2 (12).</p>
-      attackWith: unarmedCombat
-      damage: 12
       ap: 0
+      attackWith: meleeWeapons
       chatNote: ''
+      damage: 2
+      damageType: strengthPlus
+      equipped: false
+      minStrength: null
+      notes: '-'
+      range: 10/20/40
+      axioms:
+        tech: 3
+        magic: 0
+        social: 0
+        spirit: 0
+      traits: []
+      secondaryAxiom: none
+      bonus: 2
+      loadedAmmo: null
+      gunner: null
+      gunnerFixedSkill: 0
     ownership:
       default: 0
     _stats:
-      systemId: null
-      systemVersion: null
-      coreVersion: '12.327'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
-    _key: '!actors.items!nkSMwnvE2NEqjHfF.8Tt7z2BFJ2CnfvaC'
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!CSwiaWviKWIddgfI.mWTECTfjDArkl6Wb'
   - _id: cOg3q8B1r0eTeyZX
     name: Tornade
     type: perk
     sort: 200001
     flags:
-      core:
-        sourceId: Item.zVOiCd7k7ZOrbmZr
+      core: {}
     img: icons/environment/people/spearfighter.webp
     effects: []
     folder: null
     system:
       category: prowess
-      cosm: (Non)
-      prerequisites: Dex 8+
-      timestaken: 1
+      cosm: none
       description: >-
-        <p>Le combattant s&rsquo;est entra&icirc;n&eacute; pour toucher de
-        nombreux adversaires dans une v&eacute;ritable danse de la mort. Il
-        ignore les deux premiers points de malus de Cibles multiples quand il
-        utilise des Armes de m&ecirc;l&eacute;e</p>
+        <p>Le combattant s’est entraîné pour toucher de nombreux adversaires
+        dans une véritable danse de la mort. Il ignore les deux premiers points
+        de malus de Cibles multiples quand il utilise des Armes de mêlée</p>
 
         <p>(voir Cibles multiples page 125).</p>
+      prerequisites: Dex 8+
+      generalContradiction: false
       pulpPowers:
-        enhancementNumber: 0
         enhancement01:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement02:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement03:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement04:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement05:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement06:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement07:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement08:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement09:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement10:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement11:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement12:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement13:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement14:
-          title: ''
           description: ''
           taken: false
+          title: ''
         enhancement15:
-          title: ''
           description: ''
           taken: false
-        limitationNumber: 0
+          title: ''
+        enhancementNumber: 0
         limitation01: ''
         limitation02: ''
         limitation03: ''
@@ -169,342 +149,441 @@ items:
         limitation08: ''
         limitation09: ''
         limitation10: ''
+        limitationNumber: 0
+      timestaken: '1'
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+      secondaryAxiom: none
+      transferenceID: null
     ownership:
       default: 0
     _stats:
-      systemId: null
-      systemVersion: null
-      coreVersion: '12.327'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: Item.zVOiCd7k7ZOrbmZr
+      compendiumSource: null
       duplicateSource: null
-    _key: '!actors.items!nkSMwnvE2NEqjHfF.cOg3q8B1r0eTeyZX'
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!CSwiaWviKWIddgfI.cOg3q8B1r0eTeyZX'
+  - _id: 8Tt7z2BFJ2CnfvaC
+    name: Morsure/Griffes
+    type: customAttack
+    sort: 1400000
+    flags: {}
+    img: icons/weapons/fist/claw-leather-black.webp
+    effects: []
+    folder: null
+    system:
+      ap: 0
+      attackWith: unarmedCombat
+      chatNote: ''
+      damage: 12
+      description: <p>Dommages Force +2 (12).</p>
+      damageType: flat
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+      price: ''
+      value: 0
+      secondaryAxiom: none
+      bonus: 2
+      equipped: false
+      minStrength: null
+      notes: ''
+      transferenceID: 8Tt7z2BFJ2CnfvaC
+    ownership:
+      default: 0
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!CSwiaWviKWIddgfI.8Tt7z2BFJ2CnfvaC'
 effects: []
+folder: null
 flags:
-  core:
-    sourceId: Compendium.world.up-the-creek-personnagesfr.IE5R3CvPVcYV2Plv
+  core: {}
 system:
   shock:
     max: 10
-    value: null
+    value: 0
   wounds:
     max: null
     value: null
   attributes:
-    charisma: 5
-    dexterity: 9
-    mind: 6
-    spirit: 8
-    strength: 10
+    charisma:
+      base: 5
+    dexterity:
+      base: 9
+    mind:
+      base: 6
+    spirit:
+      base: 8
+    strength:
+      base: 10
   other:
-    move: 9
-    run: 5
-    toughness: 10
-    armor: 0
-    cosm: ''
-    possibilities: null
+    cosm: none
+    possibilities: 3
+    piety: 0
   skills:
     airVehicles:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     alteration:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     apportation:
       baseAttribute: spirit
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     beastRiding:
       baseAttribute: dexterity
       adds: 0
-      value: 10
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     computers:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     conjuration:
       baseAttribute: spirit
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     divination:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     dodge:
       baseAttribute: dexterity
       adds: 0
-      value: 10
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     energyWeapons:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: combat
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     evidenceAnalysis:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     faith:
       baseAttribute: spirit
-      adds: ''
-      value: 9
+      adds: 0
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     find:
       baseAttribute: mind
       adds: 0
-      value: 8
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     fireCombat:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: combat
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     firstAid:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     heavyWeapons:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: combat
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     intimidation:
       baseAttribute: spirit
       adds: 0
-      value: 10
       isFav: false
       groupName: interaction
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     kinesis:
       baseAttribute: spirit
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     landVehicles:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     language:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     lockpicking:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     maneuver:
       baseAttribute: dexterity
       adds: 0
-      value: 10
       isFav: false
       groupName: interaction
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     medicine:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     meleeWeapons:
       baseAttribute: dexterity
       adds: 0
-      value: 11
       isFav: false
       groupName: combat
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     missileWeapons:
       baseAttribute: dexterity
       adds: 0
-      value: 10
       isFav: false
-      groupName: other
-      unskilledUse: 1
+      groupName: combat
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     persuasion:
       baseAttribute: charisma
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     precognition:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     profession:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     reality:
       baseAttribute: spirit
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     scholar:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     science:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     stealth:
       baseAttribute: dexterity
       adds: 0
-      value: 10
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     streetwise:
       baseAttribute: charisma
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     survival:
       baseAttribute: mind
       adds: 0
-      value: 8
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     taunt:
       baseAttribute: charisma
       adds: 0
-      value: null
       isFav: false
       groupName: interaction
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     telepathy:
       baseAttribute: charisma
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 0
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
     tracking:
       baseAttribute: mind
       adds: 0
-      value: 8
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     trick:
       baseAttribute: mind
       adds: 0
-      value: null
       isFav: false
       groupName: interaction
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     unarmedCombat:
       baseAttribute: dexterity
       adds: 0
-      value: 11
       isFav: false
       groupName: combat
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     waterVehicles:
       baseAttribute: dexterity
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
     willpower:
       baseAttribute: spirit
       adds: 0
-      value: null
       isFav: false
       groupName: other
-      unskilledUse: 1
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
   details:
-    possibilitypotential: Rare (2)
     description: >-
-      <p>Edeinos are trained in combat from the day they&rsquo;re born. They
-      grow up with a spear in their hands and are ferocious in their pursuit and
-      capture of prey, which they rip apart with their savage teeth.</p>
+      <p>Edeinos are trained in combat from the day they’re born. They grow up
+      with a spear in their hands and are ferocious in their pursuit and capture
+      of prey, which they rip apart with their savage teeth.</p>
     sizeBonus: normal
-  editstate: none
+    possibilityPotential: Rare (2)
+    clearance: alpha
+  editstate: false
+ownership:
+  default: 0
+  tYOADsaIFknEkG7T: 3
+  VAnYow5sWS9EJzo0: 3
+  LklvxovTKD9CgQGJ: 3
 prototypeToken:
   flags: {}
   name: Guerrier Edeinos
-  displayName: 30
+  displayName: 40
   width: 1
   height: 1
   lockRotation: false
   rotation: 0
   actorLink: false
   disposition: -1
-  displayBars: 30
+  displayBars: 20
   bar1:
     attribute: shock
   bar2:
@@ -558,7 +637,6 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -570,20 +648,23 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
-  systemId: torgeternity
-  systemVersion: 2.6.8
-  coreVersion: '12.327'
-  createdTime: 1663847803870
-  modifiedTime: 1718433094011
-  lastModifiedBy: yGuea9G2iUQikR2q
-  compendiumSource: Compendium.world.up-the-creek-personnagesfr.IE5R3CvPVcYV2Plv
+  compendiumSource: null
   duplicateSource: null
-_id: nkSMwnvE2NEqjHfF
-folder: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: torgeternity
+  systemVersion: 13.15.0
+  createdTime: 1768385461971
+  modifiedTime: 1768385927737
+  lastModifiedBy: LklvxovTKD9CgQGJ
+_id: CSwiaWviKWIddgfI
 sort: 0
-ownership:
-  default: 0
-  4kr6bmxq7tmWuB59: 3
-_key: '!actors!nkSMwnvE2NEqjHfF'
+_key: '!actors!CSwiaWviKWIddgfI'
 

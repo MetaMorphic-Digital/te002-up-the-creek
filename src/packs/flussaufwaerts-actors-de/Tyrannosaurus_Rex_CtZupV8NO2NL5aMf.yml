@@ -1,0 +1,781 @@
+name: Tyrannosaurus Rex
+type: threat
+img: modules/te002-up-the-creek/portraits/Tyrannosaurus_Rex.Avatar.webp
+items:
+  - _id: y9f5EREcQ9GQmH1Y
+    name: Schrecken
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: u2i5RWbZB4iUXKBt
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>Schrecken ist für besonders schreckliche und ikonische Kreaturen wie
+        die Drachen von Aysle oder die furchtbaren Ravagons des Hageren Mannes
+        reserviert. Wenn sie eine Standardszene betreten, wird diese sofort zu
+        einer dramatischen Szene. Sobald sie verschwinden (oder besiegt wurden),
+        kehrt die Szene ab der nächsten Dramakarte zur Normalität zurück.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!CtZupV8NO2NL5aMf.y9f5EREcQ9GQmH1Y'
+  - name: Rüstung
+    type: specialability
+    flags:
+      core: {}
+    effects:
+      - origin: Item.4GpvlgRViSMgl1gx
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        _id: 9ZdnO57uKpVhVW7d
+        changes:
+          - key: defenses.armor
+            mode: 2
+            value: '3'
+            priority: null
+        tint: '#ffffff'
+        transfer: true
+        flags: {}
+        name: Rüstung +3
+        description: ''
+        statuses: []
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: torgeternity
+          systemVersion: 13.15.0
+          lastModifiedBy: null
+        img: icons/svg/aura.svg
+        type: base
+        system:
+          transferOnAttack: false
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+        sort: 0
+        _key: >-
+          !actors.items.effects!CtZupV8NO2NL5aMf.b8qnwWeEoV2ozasn.9ZdnO57uKpVhVW7d
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    system:
+      description: <p>Schuppenhaut +3</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    folder: null
+    sort: -50000
+    ownership:
+      default: 0
+      4kr6bmxq7tmWuB59: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _id: b8qnwWeEoV2ozasn
+    _key: '!actors.items!CtZupV8NO2NL5aMf.b8qnwWeEoV2ozasn'
+  - name: Sehr Groß
+    type: specialability
+    flags:
+      core: {}
+    effects:
+      - origin: Item.4GpvlgRViSMgl1gx
+        duration:
+          startTime: 0
+          seconds: null
+          combat: null
+          rounds: null
+          turns: null
+          startRound: 3
+          startTurn: 0
+        disabled: false
+        _id: 9ZdnO57uKpVhVW7d
+        changes:
+          - key: system.shock.max
+            mode: 2
+            value: '4'
+            priority: null
+        tint: '#ffffff'
+        transfer: true
+        flags: {}
+        name: Schock +4
+        description: ''
+        statuses: []
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: torgeternity
+          systemVersion: 13.15.0
+          lastModifiedBy: null
+        img: icons/svg/aura.svg
+        type: base
+        system:
+          transferOnAttack: false
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+        sort: 0
+        _key: >-
+          !actors.items.effects!CtZupV8NO2NL5aMf.M4jth7aYIJfAIWcs.9ZdnO57uKpVhVW7d
+      - name: Bewegung +2
+        origin: >-
+          Compendium.te001-core-rulebook.grw-de-bedrohungen.Actor.gh0REm30wr1xzyIf.Item.M4jth7aYIJfAIWcs
+        duration:
+          startTime: null
+          combat: null
+          seconds: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        img: icons/svg/aura.svg
+        _id: X7ORg3aM6DIoFxkQ
+        type: base
+        system:
+          transferOnAttack: false
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+        changes:
+          - key: system.other.moveMod
+            mode: 2
+            value: '2'
+            priority: null
+          - key: system.other.runMod
+            mode: 2
+            value: '6'
+            priority: null
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: torgeternity
+          systemVersion: 13.15.0
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!CtZupV8NO2NL5aMf.M4jth7aYIJfAIWcs.X7ORg3aM6DIoFxkQ
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    system:
+      description: >-
+        <p>Eine Große Kreatur ist ungefähr zwei- bis fünfmal so groß wie ein
+        Mensch. Alles, was noch größer ist, gilt als Sehr Groß. Diese Größe
+        entspricht den Größenmodifikatoren, sodass Angriffe gegen eine Große
+        Kreatur einen Bonus von +2 und gegen eine Sehr Große Kreatur einen Bonus
+        von +4 erhalten. Größere Kreaturen haben außerdem oft eine größere
+        Stärke und können mehr Schock und Wunden verkraften als
+        normal.</p><p>Vorzüge beeinflussen die Wunden- und Schock-Obergrenze
+        normal. Kreaturen können aufgrund ihrer Größe oder ihres Körperbaus auch
+        über einen höheren Bewegungswert
+        verfügen.</p><p></p><table><tbody><tr><th><p>Größe der
+        Kreatur/Typ</p></th><th><p
+        style="text-align:center">Schock</p></th><th><p
+        style="text-align:center">Wunden</p></th></tr><tr><td><p>Sehr
+        Groß</p></td><td><p style="text-align:center">Geist+4</p></td><td><p
+        style="text-align:center">3</p></td></tr><tr><td><p>Sehr
+        Groß/Elite</p></td><td><p
+        style="text-align:center">Geist+4</p></td><td><p
+        style="text-align:center">4</p></td></tr><tr><td><p>Sehr
+        Groß/Realitätsgehärtet</p></td><td><p
+        style="text-align:center">Geist+4</p></td><td><p
+        style="text-align:center">5</p></td></tr></tbody></table>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    folder: null
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _id: M4jth7aYIJfAIWcs
+    sort: 100000
+    ownership:
+      default: 0
+      W32Zl65V9atvPk8o: 3
+    _key: '!actors.items!CtZupV8NO2NL5aMf.M4jth7aYIJfAIWcs'
+  - name: Angst
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: -100000
+    flags: {}
+    _id: zck8zqsyDcccTiif
+    system:
+      description: >-
+        <p>Die Kreatur verursacht Angst. Wenn ein Charakter ihr während eines
+        Aktes zum ersten Mal begegnet, muss ihm eine @Check[willpower,spirit]
+        Probe gelingen, oder er zählt als @Condition[veryStymied]. Einige
+        besonders furchterregende Kreaturen können dieses Ergebnis
+        modifizieren.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+      VAnYow5sWS9EJzo0: 3
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!CtZupV8NO2NL5aMf.zck8zqsyDcccTiif'
+  - _id: 3g6SnBBDY8zZ47bA
+    name: Biss
+    type: customAttack
+    sort: 100000
+    flags: {}
+    img: systems/torgeternity/images/icons/bite-icon.webp
+    effects: []
+    folder: null
+    system:
+      ap: 0
+      attackWith: unarmedCombat
+      chatNote: ''
+      damage: 3
+      description: "<p>Schaden\_<em>Stärke</em> +3 (20)</p>"
+      damageType: strengthPlus
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+      price: ''
+      value: 0
+      secondaryAxiom: none
+      bonus: 2
+      equipped: false
+      minStrength: null
+      notes: ''
+      transferenceID: 3g6SnBBDY8zZ47bA
+    ownership:
+      default: 0
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!CtZupV8NO2NL5aMf.3g6SnBBDY8zZ47bA'
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  attributes:
+    charisma:
+      base: 4
+    dexterity:
+      base: 9
+    mind:
+      base: 4
+    spirit:
+      base: 10
+    strength:
+      base: 17
+  other:
+    cosm: none
+    possibilities: 0
+    piety: 0
+  shock:
+    max: 14
+    value: 0
+  skills:
+    airVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    alteration:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    apportation:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    beastRiding:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    computers:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    conjuration:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    divination:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    dodge:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    energyWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    evidenceAnalysis:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    faith:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    find:
+      adds: 4
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    fireCombat:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    firstAid:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    heavyWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    intimidation:
+      adds: 5
+      baseAttribute: spirit
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: false
+      isThreatSkill: false
+    kinesis:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    landVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    language:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    lockpicking:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    maneuver:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: false
+      isThreatSkill: false
+    medicine:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    meleeWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    missileWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    persuasion:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    precognition:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    profession:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    reality:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    scholar:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    science:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    stealth:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    streetwise:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    survival:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    taunt:
+      adds: 5
+      baseAttribute: charisma
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    telepathy:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    tracking:
+      adds: 5
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    trick:
+      adds: 0
+      baseAttribute: mind
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    unarmedCombat:
+      adds: 3
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    waterVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    willpower:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+  wounds:
+    max: 4
+    value: 0
+  details:
+    description: >-
+      <p>@UUID[Compendium.te002-up-the-creek.flussaufwaerts-handouts-de.JournalEntry.NJ40He1HiWWUjeyG.JournalEntryPage.BoU3zseDNOEjqy5i]{Tyrannosaurus
+      Rex}</p><p
+      class="moreheight">@UUID[Compendium.te002-up-the-creek.flussaufwaerts-handouts-de.JournalEntry.NJ40He1HiWWUjeyG.JournalEntryPage.D4VgbEDapmnCRGa5]{Bedrohungskarte
+      - Tyrannosaurus Rex}</p><p>Diese zwölf Meter große Tötungsmaschine ist
+      eines der furchteinflößendsten Raubtiere des Lebenden Landes: schnell,
+      kräftig und mit einen Maul voller Zähne von der Größe von Dolchen.
+      Zentralerdlinge nennen sie oft „Rexe“ aufgrund ihrer starken Ähnlichkeit
+      mit der Darstellung von Tyrannosauriern in den Medien.</p>
+    sizeBonus: veryLarge
+    clearance: alpha
+    possibilityPotential: Niemals
+  editstate: false
+ownership:
+  default: 0
+  9Q0XnqFwko7hRlvL: 3
+  VAnYow5sWS9EJzo0: 3
+  LklvxovTKD9CgQGJ: 3
+prototypeToken:
+  flags: {}
+  name: Tyrannosaurus Rex
+  displayName: 40
+  width: 3
+  height: 3
+  lockRotation: true
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 30
+  bar1:
+    attribute: wounds
+  bar2:
+    attribute: shock
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: modules/te002-up-the-creek/portraits/Tyrannosaurus_Rex.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: true
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: torgeternity
+  systemVersion: 13.15.0
+  createdTime: 1768385560074
+  modifiedTime: 1768386775361
+  lastModifiedBy: LklvxovTKD9CgQGJ
+_id: CtZupV8NO2NL5aMf
+sort: 0
+_key: '!actors!CtZupV8NO2NL5aMf'
+

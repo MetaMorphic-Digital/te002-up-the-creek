@@ -20,17 +20,18 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.Wji0QcEnr04SAoYy.JournalEntryPage.3P7C1K6Ea295VsyL
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.Wji0QcEnr04SAoYy.JournalEntryPage.3P7C1K6Ea295VsyL
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.3P7C1K6Ea295VsyL'
   - name: À propos de ce module
     type: text
@@ -52,17 +53,18 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.EogS9CHVgRXv8zu5.JournalEntryPage.LLwBzjJD24HYyHMl
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.EogS9CHVgRXv8zu5.JournalEntryPage.LLwBzjJD24HYyHMl
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.LLwBzjJD24HYyHMl'
   - name: Introduction
     type: text
@@ -84,17 +86,18 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.6tfiEd4GLAs7vhwo.JournalEntryPage.kypbwGc3EOtaNBw5
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.6tfiEd4GLAs7vhwo.JournalEntryPage.kypbwGc3EOtaNBw5
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.kypbwGc3EOtaNBw5'
   - name: 'Scène une : Le voyage commence'
     type: text
@@ -116,17 +119,18 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.t2xlUIOQIjwDPlGo.JournalEntryPage.GI8pvBc9UDtX9JKR
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.t2xlUIOQIjwDPlGo.JournalEntryPage.GI8pvBc9UDtX9JKR
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.GI8pvBc9UDtX9JKR'
   - name: 'Scene deux : terre en vue !'
     type: text
@@ -148,17 +152,18 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.cK2DBhC6rQmVlRRk.JournalEntryPage.yhkJ54Xxauoz2fDq
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.cK2DBhC6rQmVlRRk.JournalEntryPage.yhkJ54Xxauoz2fDq
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.yhkJ54Xxauoz2fDq'
   - name: Cartes d'action
     type: text
@@ -179,17 +184,18 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.LbCPfEXKMUaF9CLs.JournalEntryPage.DhhTg3XOAU9eegux
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.LbCPfEXKMUaF9CLs.JournalEntryPage.DhhTg3XOAU9eegux
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.DhhTg3XOAU9eegux'
   - name: Cartes de cosm
     type: text
@@ -211,33 +217,36 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: JournalEntry.dgvnJqYuuSQFebaW.JournalEntryPage.1S8NUyWDKmx8i3Cn
+      core: {}
     _stats:
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: JournalEntry.dgvnJqYuuSQFebaW.JournalEntryPage.1S8NUyWDKmx8i3Cn
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!FNcawtD4s3SSfoRp.1S8NUyWDKmx8i3Cn'
 flags: {}
 _stats:
   systemId: torgeternity
   systemVersion: 2.6.8
-  coreVersion: '12.331'
+  coreVersion: '13.351'
   createdTime: 1663847985345
   modifiedTime: 1663848825615
   lastModifiedBy: 4kr6bmxq7tmWuB59
   compendiumSource: null
   duplicateSource: null
+  exportSource: null
 _id: FNcawtD4s3SSfoRp
 folder: null
 sort: 0
 ownership:
   default: 0
   4kr6bmxq7tmWuB59: 3
+categories: []
 _key: '!journal!FNcawtD4s3SSfoRp'
 

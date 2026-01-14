@@ -1,7 +1,7 @@
 name: Converted Tour Boat
 navigation: false
 navName: Converted Tour Boat
-thumb: worlds/torg-bastelei/assets/scenes/xdoQ4MVkf1ANZ5sJ-thumb.webp
+thumb: modules/te002-up-the-creek/assets/scenes/Xv70JC1JdMri1Zvr-thumb.webp
 width: 1297
 height: 1666
 padding: 0.25
@@ -34,24 +34,26 @@ journal: null
 weather: ''
 folder: null
 flags:
-  core:
-    sourceId: Scene.e14gVMO3YlmMUfqD
+  core: {}
   torgeternity:
     cosm: livingLand
     zone: dominant
     displayCosm2: true
     isMixed: false
     cosm2: coreEarth
+    dimLightThreshold: 0.05
+    darkThreshold: 0.9
 regions: []
 _stats:
   compendiumSource: Scene.e14gVMO3YlmMUfqD
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.351'
   systemId: torgeternity
-  systemVersion: 12.4.0
+  systemVersion: 13.15.0
   createdTime: 1732859687320
-  modifiedTime: 1732859687320
-  lastModifiedBy: i3n6V3FKTXdpbMfy
+  modifiedTime: 1768384222240
+  lastModifiedBy: LklvxovTKD9CgQGJ
+  exportSource: null
 ownership:
   default: 0
   i3n6V3FKTXdpbMfy: 3

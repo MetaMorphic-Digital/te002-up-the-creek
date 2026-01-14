@@ -19,18 +19,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-journals.DPvuF0KOmThb6aao.JournalEntryPage.m0LJhgvBcHdkCyGb
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1689448871641
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-journals.DPvuF0KOmThb6aao.JournalEntryPage.m0LJhgvBcHdkCyGb
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.m0LJhgvBcHdkCyGb'
   - name: Threat Card - Gospog
     type: image
@@ -51,18 +52,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-journals.6VffoCRaJ8eZOPi1.JournalEntryPage.PxNhvZ0ZocIROSfP
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1689448877273
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-journals.6VffoCRaJ8eZOPi1.JournalEntryPage.PxNhvZ0ZocIROSfP
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.PxNhvZ0ZocIROSfP'
   - name: Threat Card - Tyrannosaurus
     type: image
@@ -83,18 +85,19 @@ pages:
     ownership:
       default: -1
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-journals.MhFtzm0ActVs5HRU.JournalEntryPage.D4VgbEDapmnCRGa5
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: null
       modifiedTime: 1689448870537
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-journals.MhFtzm0ActVs5HRU.JournalEntryPage.D4VgbEDapmnCRGa5
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.D4VgbEDapmnCRGa5'
   - sort: -100000
     name: Cover
@@ -119,12 +122,14 @@ pages:
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: 1689448806338
       modifiedTime: 1689448824536
       lastModifiedBy: h2oE5Ikd7rcZX2S7
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.GtRBdQehpRXiFM1B'
   - sort: -100000
     name: Gospog Fight
@@ -145,19 +150,20 @@ pages:
       default: -1
       h2oE5Ikd7rcZX2S7: 3
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: 1689448806338
       modifiedTime: 1689448860321
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
       duplicateSource: null
+      exportSource: null
     _id: eK2pTr4rnm2mG3ks
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.eK2pTr4rnm2mG3ks'
   - sort: -100000
     name: Edeinos Warrior
@@ -178,19 +184,20 @@ pages:
       default: -1
       h2oE5Ikd7rcZX2S7: 3
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: 1689448806338
       modifiedTime: 1689448899793
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
       duplicateSource: null
+      exportSource: null
     _id: xorjvkcr8JXOostG
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.xorjvkcr8JXOostG'
   - sort: 75000
     name: Gospog
@@ -211,19 +218,20 @@ pages:
       default: -1
       h2oE5Ikd7rcZX2S7: 3
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: 1689448806338
       modifiedTime: 1689448924512
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
       duplicateSource: null
+      exportSource: null
     _id: jUVxaMAatWbTMohB
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.jUVxaMAatWbTMohB'
   - sort: 100000
     name: Tyrannosaurus
@@ -244,31 +252,33 @@ pages:
       default: -1
       h2oE5Ikd7rcZX2S7: 3
     flags:
-      core:
-        sourceId: >-
-          Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
+      core: {}
     _stats:
       systemId: torgeternity
       systemVersion: 2.9.3
-      coreVersion: '12.331'
+      coreVersion: '13.351'
       createdTime: 1689448806338
       modifiedTime: 1689448946417
       lastModifiedBy: h2oE5Ikd7rcZX2S7
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.up-the-creek-handouts.JournalEntry.GNZkqxOYRRDp4dsW.JournalEntryPage.GtRBdQehpRXiFM1B
       duplicateSource: null
+      exportSource: null
     _id: BoU3zseDNOEjqy5i
+    category: null
     _key: '!journal.pages!GNZkqxOYRRDp4dsW.BoU3zseDNOEjqy5i'
 flags:
   core: {}
 _stats:
   systemId: torgeternity
   systemVersion: 2.9.3
-  coreVersion: '12.331'
+  coreVersion: '13.351'
   createdTime: 1663757034369
   modifiedTime: 1689448946417
   lastModifiedBy: h2oE5Ikd7rcZX2S7
   compendiumSource: null
   duplicateSource: null
+  exportSource: null
 folder: null
 ownership:
   default: 0
@@ -276,5 +286,6 @@ ownership:
   h2oE5Ikd7rcZX2S7: 3
 _id: GNZkqxOYRRDp4dsW
 sort: 0
+categories: []
 _key: '!journal!GNZkqxOYRRDp4dsW'
 

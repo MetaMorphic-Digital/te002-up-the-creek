@@ -1,0 +1,655 @@
+name: Gospog der 1. Pflanzung
+type: threat
+img: modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting.Avatar.webp
+items:
+  - _id: LZR6k2u0PqwhhsxQ
+    name: Stumpfsinnig
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: u2i5RWbZB4iUXKBt
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>Der Kreatur fehlt die Fähigkeit zum bewussten Denken oder sie hat aus
+        einem anderen Grund keinerlei Selbsterhaltungsdrang. Sie gehorcht
+        einfach den Befehlen ihres Meisters oder greift instinktiv alles an, was
+        nicht ihrer Art entspricht. Stumpfsinnige Kreaturen sind immun gegen
+        <em>Einschüchtern </em>und <em>Verspotten</em>, aber sie können immer
+        noch <em>ausgetrickst </em>werden! Sie ignorieren die Auswirkungen von
+        <em>Telepathie </em>und ähnlichen Zaubern oder Wundern.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!7wnGsivXeS6pNRkk.LZR6k2u0PqwhhsxQ'
+  - _id: tQIG0RhuhJvwPbVI
+    name: Unerbittlich
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: u2i5RWbZB4iUXKBt
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>Die Kreatur ist unermüdlich und ignoriert Schock vollständig.
+        Ermüdung hat keine Auswirkung. Eine unerbittliche Kreatur kann immer
+        noch durch den Verlust von Wunden K.O. gehen, was normalerweise
+        bedeutet, dass sie funktionsuntüchtig gemacht oder zerstört wurde.</p>
+      traits:
+        - ignoreShock
+      cosm: none
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!7wnGsivXeS6pNRkk.tQIG0RhuhJvwPbVI'
+  - _id: RTyHrJynNR5HjOGW
+    name: Untot
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description: >-
+        <p>Diese abscheuliche Kreatur war tot und wurde dann reanimiert. Es kann
+        sich um einen Vampir, einen Zombie, einen Gospog oder irgendeine andere
+        abscheuliche Horror-Kreatur handeln. Untote werden nicht von Kräften,
+        Zaubersprüchen oder Fähigkeiten beeinflusst, die das Atmen, Essen,
+        Ermüden oder andere körperliche Funktionen von lebenden Wesen betreffen.
+        Untote Kreaturen zählen für Vorzüge oder Kräfte immer als
+        @UUID[Compendium.te001-core-rulebook.grw-de-grw.Qlx6yGF0Mmo6Xzrv.JournalEntryPage.35aMxQmdrQ7RDr63#ubernaturliches-boses]{Übernatürliches
+        Böses}.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+      4kr6bmxq7tmWuB59: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!7wnGsivXeS6pNRkk.RTyHrJynNR5HjOGW'
+  - name: Angst
+    type: specialability
+    img: systems/torgeternity/images/icons/torgeternity-icon.webp
+    effects: []
+    folder: null
+    sort: -100000
+    flags: {}
+    _id: zck8zqsyDcccTiif
+    system:
+      description: >-
+        <p>Die Kreatur verursacht Angst. Wenn ein Charakter ihr während eines
+        Aktes zum ersten Mal begegnet, muss ihm eine @Check[willpower,spirit]
+        Probe gelingen, oder er zählt als @Condition[veryStymied]. Einige
+        besonders furchterregende Kreaturen können dieses Ergebnis
+        modifizieren.</p>
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+      VAnYow5sWS9EJzo0: 3
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!7wnGsivXeS6pNRkk.zck8zqsyDcccTiif'
+  - _id: WAZ3DbQiJfLvFhrL
+    name: Biss/Krallen
+    type: customAttack
+    img: systems/torgeternity/images/icons/bite-icon.webp
+    effects: []
+    folder: u2i5RWbZB4iUXKBt
+    sort: 0
+    flags:
+      core: {}
+    system:
+      ap: 0
+      attackWith: unarmedCombat
+      chatNote: ''
+      damage: 2
+      description: '<p>Schaden: <em>Stärke</em> +2 (10)</p>'
+      damageType: strengthPlus
+      cosm: none
+      traits: []
+      axioms:
+        magic: 0
+        social: 0
+        spirit: 0
+        tech: 0
+      price: ''
+      value: 0
+      secondaryAxiom: none
+      bonus: 2
+      equipped: false
+      minStrength: null
+      notes: ''
+      transferenceID: WAZ3DbQiJfLvFhrL
+    ownership:
+      default: 0
+      9Q0XnqFwko7hRlvL: 3
+      W32Zl65V9atvPk8o: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: torgeternity
+      systemVersion: 13.15.0
+      lastModifiedBy: null
+    _key: '!actors.items!7wnGsivXeS6pNRkk.WAZ3DbQiJfLvFhrL'
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  attributes:
+    charisma:
+      base: 5
+    dexterity:
+      base: 7
+    mind:
+      base: 7
+    spirit:
+      base: 7
+    strength:
+      base: 8
+  other:
+    cosm: none
+    possibilities: 0
+    piety: 0
+  shock:
+    max: 0
+    value: 0
+  skills:
+    airVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    alteration:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    apportation:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    beastRiding:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    computers:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    conjuration:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    divination:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    dodge:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    energyWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    evidenceAnalysis:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    faith:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    find:
+      adds: 1
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    fireCombat:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    firstAid:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    heavyWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    intimidation:
+      adds: 0
+      baseAttribute: spirit
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    kinesis:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    landVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    language:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    lockpicking:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    maneuver:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: false
+      isThreatSkill: false
+    medicine:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    meleeWeapons:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    missileWeapons:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    persuasion:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    precognition:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    profession:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    reality:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    scholar:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    science:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    stealth:
+      adds: 1
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    streetwise:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    survival:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    taunt:
+      adds: 0
+      baseAttribute: charisma
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    telepathy:
+      adds: 0
+      baseAttribute: charisma
+      groupName: other
+      isFav: false
+      unskilledUse: false
+      isThreatSkill: false
+      defenseOnly: false
+    tracking:
+      adds: 0
+      baseAttribute: mind
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    trick:
+      adds: 0
+      baseAttribute: mind
+      groupName: interaction
+      isFav: false
+      unskilledUse: true
+      defenseOnly: true
+      isThreatSkill: false
+    unarmedCombat:
+      adds: 3
+      baseAttribute: dexterity
+      groupName: combat
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    waterVehicles:
+      adds: 0
+      baseAttribute: dexterity
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+    willpower:
+      adds: 0
+      baseAttribute: spirit
+      groupName: other
+      isFav: false
+      unskilledUse: true
+      isThreatSkill: false
+      defenseOnly: false
+  wounds:
+    max: 0
+    value: 0
+  details:
+    description: >-
+      <p>@UUID[Compendium.te002-up-the-creek.flussaufwaerts-handouts-de.JournalEntry.NJ40He1HiWWUjeyG.JournalEntryPage.jUVxaMAatWbTMohB]{Gospog}</p><p
+      class="moreheight">@UUID[Compendium.te002-up-the-creek.flussaufwaerts-handouts-de.JournalEntry.NJ40He1HiWWUjeyG.JournalEntryPage.PxNhvZ0ZocIROSfP]{Bedrohungskarte
+      - Gospog}</p><p>Gospog der Ersten Pflanzung sind menschliche Leichen, die
+      mit verrottender Vegetation und fauligem Fleisch verwachsen sind. Sie sind
+      in allen Reichen zu finden, ein gnädiges Totengeschenk des Hageren Mannes
+      an die anderen Realitätsplünderer. Sie sind seltsam anpassungsfähig und
+      funktionieren in allen Reichen, ohne Widersprüche auszulösen.</p>
+    sizeBonus: normal
+    clearance: alpha
+    possibilityPotential: Never
+  editstate: false
+ownership:
+  default: 0
+  9Q0XnqFwko7hRlvL: 3
+  VAnYow5sWS9EJzo0: 3
+  LklvxovTKD9CgQGJ: 3
+prototypeToken:
+  flags: {}
+  name: Gospog der 1. Pflanzung
+  displayName: 40
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: wounds
+  bar2:
+    attribute: shock
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: true
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: torgeternity
+  systemVersion: 13.15.0
+  createdTime: 1768385553749
+  modifiedTime: 1768386759960
+  lastModifiedBy: LklvxovTKD9CgQGJ
+_id: 7wnGsivXeS6pNRkk
+sort: 0
+_key: '!actors!7wnGsivXeS6pNRkk'
+

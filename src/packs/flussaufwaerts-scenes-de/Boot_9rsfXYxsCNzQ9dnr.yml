@@ -39,8 +39,7 @@ weather: ''
 folder: null
 sort: 0
 flags:
-  core:
-    sourceId: Scene.e14gVMO3YlmMUfqD
+  core: {}
   torgeternity:
     cosm: livingLand
     zone: dominant
@@ -49,14 +48,15 @@ flags:
     cosm2: coreEarth
 regions: []
 _stats:
-  coreVersion: '12.331'
+  coreVersion: '13.351'
   systemId: null
   systemVersion: null
   createdTime: null
   modifiedTime: 1732859164375
   lastModifiedBy: i3n6V3FKTXdpbMfy
-  compendiumSource: null
+  compendiumSource: Scene.e14gVMO3YlmMUfqD
   duplicateSource: null
+  exportSource: null
 ownership:
   default: 0
   ZuS1Anc9ORZov40T: 3
