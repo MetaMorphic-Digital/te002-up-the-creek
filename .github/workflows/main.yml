@@ -29,6 +29,7 @@ jobs:
       # Create a zip file with all files required by the system to add to the release
       - run: |
           zip -r ./te002-up-the-creek.zip \
+            assets/scenes/ \
             images/ \
             packs/ \
             portraits/ \
