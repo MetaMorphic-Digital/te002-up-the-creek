@@ -27,10 +27,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!5aHb1izzezoDDJ2s.v9ZiZiN2D7r85pB0'
   - _id: aNRrcGZZQf1hygm7
     name: Relentless
@@ -56,10 +58,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!5aHb1izzezoDDJ2s.aNRrcGZZQf1hygm7'
   - _id: zbRvIz9RVFr6EN4C
     name: Undead
@@ -88,10 +92,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!5aHb1izzezoDDJ2s.zbRvIz9RVFr6EN4C'
   - _id: h5VB6y5YjVgZDaWF
     name: Fear
@@ -124,10 +130,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!5aHb1izzezoDDJ2s.h5VB6y5YjVgZDaWF'
   - _id: HESbYqapLAQKaVGT
     name: Claws
@@ -166,10 +174,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!5aHb1izzezoDDJ2s.HESbYqapLAQKaVGT'
 effects: []
 folder: null
@@ -579,9 +589,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -596,7 +603,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: true
   prependAdjective: false
   occludable:
@@ -616,11 +623,12 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: torgeternity
   systemVersion: 13.15.0
   createdTime: 1768385350170

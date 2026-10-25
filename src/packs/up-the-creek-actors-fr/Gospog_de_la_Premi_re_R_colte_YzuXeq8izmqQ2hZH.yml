@@ -30,10 +30,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!YzuXeq8izmqQ2hZH.4iPtliIkvQzy5NAy'
   - _id: V4T1pyCvKVRhqPyy
     name: Mort-vivant
@@ -64,10 +66,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!YzuXeq8izmqQ2hZH.V4T1pyCvKVRhqPyy'
   - _id: KsqUDgL3sotimHYQ
     name: Infatigable
@@ -99,10 +103,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!YzuXeq8izmqQ2hZH.KsqUDgL3sotimHYQ'
   - _id: wyCfh2kXNVhcNWSr
     name: Peur
@@ -133,10 +139,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!YzuXeq8izmqQ2hZH.wyCfh2kXNVhcNWSr'
   - _id: WLY1VxRwT3Mg5JzV
     name: Griffes
@@ -181,10 +189,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!YzuXeq8izmqQ2hZH.WLY1VxRwT3Mg5JzV'
 effects: []
 folder: null
@@ -593,9 +603,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -610,7 +617,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -630,11 +637,12 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: torgeternity
   systemVersion: 13.15.0
   createdTime: 1768385446055

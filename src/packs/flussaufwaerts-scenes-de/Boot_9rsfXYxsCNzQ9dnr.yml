@@ -4,7 +4,6 @@ active: true
 navigation: false
 navOrder: 0
 navName: Boot
-foreground: null
 thumb: modules/te002-up-the-creek/assets/scenes/9rsfXYxsCNzQ9dnr-thumb.webp
 width: 1297
 height: 1666
@@ -13,7 +12,6 @@ initial:
   x: 1008
   'y': 1321
   scale: 1
-backgroundColor: '#999999'
 grid:
   size: 50
   type: 0
@@ -29,7 +27,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -48,7 +45,7 @@ flags:
     cosm2: coreEarth
 regions: []
 _stats:
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: null
   systemVersion: null
   createdTime: null
@@ -60,18 +57,6 @@ _stats:
 ownership:
   default: 0
   ZuS1Anc9ORZov40T: 3
-background:
-  src: modules/te002-up-the-creek/images/converted-tour-boat.webp
-  offsetX: 0
-  offsetY: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
 environment:
   globalLight:
     luminosity: 0
@@ -102,13 +87,21 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1629558432556
-  overlay: null
   colors:
     explored: null
     unexplored: null
-foregroundElevation: null
+  mode: 1
 journalEntryPage: null
+levels:
+  - defaultLevel0000
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!9rsfXYxsCNzQ9dnr'
+templates: []
 

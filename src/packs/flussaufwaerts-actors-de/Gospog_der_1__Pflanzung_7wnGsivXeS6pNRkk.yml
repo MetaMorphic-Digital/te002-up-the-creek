@@ -34,10 +34,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!7wnGsivXeS6pNRkk.LZR6k2u0PqwhhsxQ'
   - _id: tQIG0RhuhJvwPbVI
     name: Unerbittlich
@@ -69,10 +71,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!7wnGsivXeS6pNRkk.tQIG0RhuhJvwPbVI'
   - _id: RTyHrJynNR5HjOGW
     name: Untot
@@ -108,10 +112,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!7wnGsivXeS6pNRkk.RTyHrJynNR5HjOGW'
   - name: Angst
     type: specialability
@@ -144,10 +150,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!7wnGsivXeS6pNRkk.zck8zqsyDcccTiif'
   - _id: WAZ3DbQiJfLvFhrL
     name: Biss/Krallen
@@ -188,10 +196,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!7wnGsivXeS6pNRkk.WAZ3DbQiJfLvFhrL'
 effects: []
 folder: null
@@ -602,9 +612,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -619,7 +626,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: true
   prependAdjective: false
   occludable:
@@ -639,11 +646,12 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: torgeternity
   systemVersion: 13.15.0
   createdTime: 1768385553749

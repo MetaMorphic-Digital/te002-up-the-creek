@@ -27,10 +27,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!EHdJP6Of2yN5i33I.z3ey0ggbjvovul6b'
   - name: Armor
     type: specialability
@@ -39,20 +41,12 @@ items:
     effects:
       - origin: Item.4GpvlgRViSMgl1gx
         duration:
-          startTime: null
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         disabled: false
         _id: 9ZdnO57uKpVhVW7d
-        changes:
-          - key: defenses.armor
-            mode: 2
-            value: '3'
-            priority: null
         tint: '#ffffff'
         transfer: true
         flags: {}
@@ -63,17 +57,27 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.369'
           systemId: torgeternity
           systemVersion: 13.15.0
           lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
         img: icons/svg/aura.svg
         type: base
         system:
           transferOnAttack: false
           applyIfAttackTrait: []
           applyIfDefendTrait: []
+          changes:
+            - key: defenses.armor
+              value: 3
+              priority: null
+              type: add
         sort: 0
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!EHdJP6Of2yN5i33I.IWXE2iRznxBQT4LB.9ZdnO57uKpVhVW7d
     img: systems/torgeternity/images/icons/torgeternity-icon.webp
@@ -95,10 +99,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: IWXE2iRznxBQT4LB
     _key: '!actors.items!EHdJP6Of2yN5i33I.IWXE2iRznxBQT4LB'
   - name: Very Large
@@ -108,20 +114,12 @@ items:
     effects:
       - origin: Item.4GpvlgRViSMgl1gx
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 3
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         disabled: false
         _id: 9ZdnO57uKpVhVW7d
-        changes:
-          - key: system.shock.max
-            mode: 2
-            value: '4'
-            priority: null
         tint: '#ffffff'
         transfer: true
         flags: {}
@@ -132,29 +130,42 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.369'
           systemId: torgeternity
           systemVersion: 13.15.0
           lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
         img: icons/svg/aura.svg
         type: base
         system:
           transferOnAttack: false
           applyIfAttackTrait: []
           applyIfDefendTrait: []
+          changes:
+            - key: system.shock.max
+              value: 4
+              priority: null
+              type: add
         sort: 0
+        start:
+          combat: null
+          round: 3
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!EHdJP6Of2yN5i33I.KGmWH09zF3QGTBDs.9ZdnO57uKpVhVW7d
       - name: Move +2
         origin: Item.KGmWH09zF3QGTBDs
         duration:
-          startTime: 0
-          combat: null
-          seconds: null
-          rounds: null
-          turns: null
-          startRound: 3
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         disabled: false
         img: icons/svg/aura.svg
         _id: bAr0nuuaRu94VRQd
@@ -163,15 +174,15 @@ items:
           transferOnAttack: false
           applyIfAttackTrait: []
           applyIfDefendTrait: []
-        changes:
-          - key: system.other.moveMod
-            mode: 2
-            value: '2'
-            priority: null
-          - key: system.other.runMod
-            mode: 2
-            value: '6'
-            priority: null
+          changes:
+            - key: system.other.moveMod
+              value: 2
+              priority: null
+              type: add
+            - key: system.other.runMod
+              value: 6
+              priority: null
+              type: add
         description: ''
         tint: '#ffffff'
         transfer: true
@@ -182,10 +193,21 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.369'
           systemId: torgeternity
           systemVersion: 13.15.0
           lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+        start:
+          combat: null
+          round: 3
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!EHdJP6Of2yN5i33I.KGmWH09zF3QGTBDs.bAr0nuuaRu94VRQd
     img: systems/torgeternity/images/icons/torgeternity-icon.webp
@@ -222,10 +244,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
       W32Zl65V9atvPk8o: 3
@@ -262,10 +286,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!EHdJP6Of2yN5i33I.h5VB6y5YjVgZDaWF'
   - _id: 3g6SnBBDY8zZ47bA
     name: Bite
@@ -304,10 +330,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!EHdJP6Of2yN5i33I.3g6SnBBDY8zZ47bA'
 effects: []
 folder: null
@@ -717,9 +745,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -734,7 +759,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: true
   prependAdjective: false
   occludable:
@@ -754,11 +779,12 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 3
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: torgeternity
   systemVersion: 13.15.0
   createdTime: 1768385362261

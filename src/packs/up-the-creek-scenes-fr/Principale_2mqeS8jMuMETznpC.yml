@@ -3,7 +3,6 @@ active: false
 navigation: true
 navOrder: 0
 navName: Principale
-foreground: null
 thumb: modules/te002-up-the-creek/assets/scenes/2mqeS8jMuMETznpC-thumb.png
 width: 4096
 height: 2665
@@ -12,7 +11,6 @@ initial:
   x: 3523
   'y': 2030
   scale: 0.4
-backgroundColor: '#999999'
 grid:
   size: 100
   type: 0
@@ -28,7 +26,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -45,7 +42,7 @@ flags:
 _id: 2mqeS8jMuMETznpC
 regions: []
 _stats:
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: null
   systemVersion: null
   createdTime: null
@@ -57,18 +54,6 @@ _stats:
 ownership:
   default: 0
   qjRKKHBumHYSfxpw: 3
-background:
-  src: modules/te002-up-the-creek/images/marble-background.png
-  offsetX: 0
-  offsetY: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
 environment:
   globalLight:
     luminosity: 0
@@ -99,13 +84,21 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1652300918130
-  overlay: null
   colors:
     explored: null
     unexplored: null
-foregroundElevation: null
+  mode: 1
 journalEntryPage: null
+levels:
+  - defaultLevel0000
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!2mqeS8jMuMETznpC'
+templates: []
 

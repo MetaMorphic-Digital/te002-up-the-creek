@@ -3,7 +3,6 @@ active: false
 navigation: true
 navOrder: 0
 navName: Bateau d'excursion modifié
-foreground: null
 thumb: modules/te002-up-the-creek/assets/scenes/PLMs3zx3VVtdxxTx-thumb.png
 width: 1297
 height: 1666
@@ -12,7 +11,6 @@ initial:
   x: 1008
   'y': 1321
   scale: 1
-backgroundColor: '#999999'
 grid:
   size: 50
   type: 0
@@ -28,7 +26,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -48,7 +45,7 @@ flags:
 _id: PLMs3zx3VVtdxxTx
 regions: []
 _stats:
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: null
   systemVersion: null
   createdTime: null
@@ -60,18 +57,6 @@ _stats:
 ownership:
   default: 0
   qjRKKHBumHYSfxpw: 3
-background:
-  src: modules/te002-up-the-creek/images/converted-tour-boat.jpg
-  offsetX: 0
-  offsetY: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
 environment:
   globalLight:
     luminosity: 0
@@ -102,13 +87,21 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1629558432556
-  overlay: null
   colors:
     explored: null
     unexplored: null
-foregroundElevation: null
+  mode: 1
 journalEntryPage: null
+levels:
+  - defaultLevel0000
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!PLMs3zx3VVtdxxTx'
+templates: []
 

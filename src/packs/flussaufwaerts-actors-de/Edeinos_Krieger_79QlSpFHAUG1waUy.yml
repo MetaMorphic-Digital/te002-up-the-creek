@@ -112,10 +112,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!79QlSpFHAUG1waUy.4APjQdoRsWJp7gGm'
   - name: Hrockt-Sprossenspeer
     type: missileweapon
@@ -164,10 +166,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: 0XSDwGGLql1cOxJ6
     sort: 0
     _key: '!actors.items!79QlSpFHAUG1waUy.0XSDwGGLql1cOxJ6'
@@ -218,10 +222,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!79QlSpFHAUG1waUy.UnE9fcjNsX0k2LVW'
   - _id: yAVCS5XK4uMPBjU4
     name: Biss/Krallen
@@ -262,21 +268,20 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!79QlSpFHAUG1waUy.yAVCS5XK4uMPBjU4'
 effects:
   - origin: Compendium.te001-core-rulebook.grw-de-bedrohungen.Actor.t9sDWEpMVNTAkIoP
     duration:
-      rounds: null
-      startTime: 0
-      seconds: null
-      combat: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: false
     name: Schock +2
     img: icons/svg/aura.svg
@@ -286,11 +291,11 @@ effects:
       transferOnAttack: false
       applyIfAttackTrait: []
       applyIfDefendTrait: []
-    changes:
-      - key: system.shock.max
-        mode: 2
-        value: '2'
-        priority: null
+      changes:
+        - key: system.shock.max
+          value: 2
+          priority: null
+          type: add
     description: ''
     tint: '#ffffff'
     transfer: false
@@ -301,10 +306,21 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.369'
       systemId: torgeternity
       systemVersion: 13.15.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
+    start:
+      combat: null
+      round: null
+      time: 0
+      turn: null
+      combatant: null
+      initiative: null
+    showIcon: 1
+    folder: null
     _key: '!actors.effects!79QlSpFHAUG1waUy.6nf5Jyx3GNWusI5x'
 folder: null
 flags:
@@ -714,9 +730,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -731,7 +744,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: true
   prependAdjective: false
   occludable:
@@ -751,11 +764,12 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: torgeternity
   systemVersion: 13.15.0
   createdTime: 1768385547578

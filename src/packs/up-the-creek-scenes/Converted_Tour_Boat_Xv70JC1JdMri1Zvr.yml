@@ -9,7 +9,6 @@ initial:
   x: 1008
   'y': 1321
   scale: 1
-backgroundColor: '#999999'
 grid:
   size: 50
   type: 0
@@ -25,7 +24,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -47,7 +45,7 @@ regions: []
 _stats:
   compendiumSource: Scene.e14gVMO3YlmMUfqD
   duplicateSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.369'
   systemId: torgeternity
   systemVersion: 13.15.0
   createdTime: 1732859687320
@@ -57,18 +55,6 @@ _stats:
 ownership:
   default: 0
   i3n6V3FKTXdpbMfy: 3
-background:
-  src: modules/te002-up-the-creek/images/converted-tour-boat.webp
-  offsetX: 0
-  offsetY: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
 environment:
   globalLight:
     luminosity: 0
@@ -99,18 +85,25 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1629558432556
-  overlay: null
   colors:
     explored: null
     unexplored: null
-foreground: null
-foregroundElevation: null
+  mode: 1
 journalEntryPage: null
 navOrder: 0
 _id: Xv70JC1JdMri1Zvr
 active: false
 sort: 0
+levels:
+  - defaultLevel0000
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!Xv70JC1JdMri1Zvr'
+templates: []
 
