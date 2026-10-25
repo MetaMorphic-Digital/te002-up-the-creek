@@ -21,7 +21,8 @@ items:
         noch <em>ausgetrickst </em>werden! Sie ignorieren die Auswirkungen von
         <em>Telepathie </em>und ähnlichen Zaubern oder Wundern.</p>
       cosm: none
-      traits: []
+      traits:
+        - mindless
       axioms:
         magic: 0
         social: 0
@@ -36,10 +37,10 @@ items:
       exportSource: null
       coreVersion: '14.369'
       systemId: torgeternity
-      systemVersion: 13.15.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 14.7.0
+      lastModifiedBy: 1pd2BrMxZ5dFYe8K
+      createdTime: 1792928308765
+      modifiedTime: 1792928308765
     _key: '!actors.items!7wnGsivXeS6pNRkk.LZR6k2u0PqwhhsxQ'
   - _id: tQIG0RhuhJvwPbVI
     name: Unerbittlich
@@ -98,7 +99,8 @@ items:
         @UUID[Compendium.te001-core-rulebook.grw-de-grw.Qlx6yGF0Mmo6Xzrv.JournalEntryPage.35aMxQmdrQ7RDr63#ubernaturliches-boses]{Übernatürliches
         Böses}.</p>
       cosm: none
-      traits: []
+      traits:
+        - supernaturalEvil
       axioms:
         magic: 0
         social: 0
@@ -114,10 +116,10 @@ items:
       exportSource: null
       coreVersion: '14.369'
       systemId: torgeternity
-      systemVersion: 13.15.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 14.7.0
+      lastModifiedBy: 1pd2BrMxZ5dFYe8K
+      createdTime: 1792928293308
+      modifiedTime: 1792928293308
     _key: '!actors.items!7wnGsivXeS6pNRkk.RTyHrJynNR5HjOGW'
   - name: Angst
     type: specialability

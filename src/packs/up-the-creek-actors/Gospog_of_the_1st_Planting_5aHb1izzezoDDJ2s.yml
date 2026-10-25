@@ -15,7 +15,8 @@ items:
         <p>Gospog are immune to <em>intimidation</em> and <em>taunt</em>
         interactions.</p>
       cosm: none
-      traits: []
+      traits:
+        - mindless
       axioms:
         magic: 0
         social: 0
@@ -29,10 +30,10 @@ items:
       exportSource: null
       coreVersion: '14.369'
       systemId: torgeternity
-      systemVersion: 13.15.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 14.7.0
+      lastModifiedBy: 1pd2BrMxZ5dFYe8K
+      createdTime: 1792928175192
+      modifiedTime: 1792928175192
     _key: '!actors.items!5aHb1izzezoDDJ2s.v9ZiZiN2D7r85pB0'
   - _id: aNRrcGZZQf1hygm7
     name: Relentless

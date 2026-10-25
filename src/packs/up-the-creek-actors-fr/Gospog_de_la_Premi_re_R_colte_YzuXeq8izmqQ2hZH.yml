@@ -16,7 +16,8 @@ items:
         <p>Les gospogs sont immunisés aux interactions Intimidation et
         Provocation.</p>
       cosm: none
-      traits: []
+      traits:
+        - mindless
       axioms:
         magic: 0
         social: 0
@@ -32,10 +33,10 @@ items:
       exportSource: null
       coreVersion: '14.369'
       systemId: torgeternity
-      systemVersion: 13.15.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 14.7.0
+      lastModifiedBy: 1pd2BrMxZ5dFYe8K
+      createdTime: 1792928394988
+      modifiedTime: 1792928394988
     _key: '!actors.items!YzuXeq8izmqQ2hZH.4iPtliIkvQzy5NAy'
   - _id: V4T1pyCvKVRhqPyy
     name: Mort-vivant
@@ -52,7 +53,8 @@ items:
         rapport avec la respiration, l’alimentation ou d’autres processus
         nécessaires aux vivants.</p>
       cosm: none
-      traits: []
+      traits:
+        - supernaturalEvil
       axioms:
         magic: 0
         social: 0
@@ -68,10 +70,10 @@ items:
       exportSource: null
       coreVersion: '14.369'
       systemId: torgeternity
-      systemVersion: 13.15.0
-      lastModifiedBy: null
-      createdTime: null
-      modifiedTime: null
+      systemVersion: 14.7.0
+      lastModifiedBy: 1pd2BrMxZ5dFYe8K
+      createdTime: 1792928410641
+      modifiedTime: 1792928410641
     _key: '!actors.items!YzuXeq8izmqQ2hZH.V4T1pyCvKVRhqPyy'
   - _id: KsqUDgL3sotimHYQ
     name: Infatigable
