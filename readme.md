@@ -1,5 +1,5 @@
 # FREE Intro Adventure in English, French and German
-This free adventure introduces new GMs and players to the world of Torg: Eternity and contains everything required to play the game!
+This free adventure introduces new GMs and players to the world of Torg: Eternity and contains everything required to play the game! Just import the enclosed adventure, and go!
 
 Dieses kostenlose Abenteuer führt neue Spielleiter und Spieler in die Welt von Torg: Eternity ein und enthält alles, was man braucht, um das Spiel zu spielen!
 
