@@ -299,7 +299,7 @@ actors:
           expired: false
         disabled: false
         name: Schock +2
-        img: icons/svg/aura.svg
+        img: modules/te002-up-the-creek/portraits/Edeinos_Warrior.Avatar.webp
         _id: 6nf5Jyx3GNWusI5x
         type: base
         system:
@@ -1557,7 +1557,7 @@ actors:
               modifiedTime: null
               duplicateSource: null
               exportSource: null
-            img: icons/svg/aura.svg
+            img: systems/torgeternity/images/icons/torgeternity-icon.webp
             type: base
             system:
               applyIfAttackTrait: []
@@ -1646,7 +1646,7 @@ actors:
               modifiedTime: null
               duplicateSource: null
               exportSource: null
-            img: icons/svg/aura.svg
+            img: systems/torgeternity/images/icons/torgeternity-icon.webp
             type: base
             system:
               applyIfAttackTrait: []
@@ -1692,7 +1692,7 @@ actors:
               expiry: null
               expired: false
             disabled: false
-            img: icons/svg/aura.svg
+            img: systems/torgeternity/images/icons/torgeternity-icon.webp
             _id: X7ORg3aM6DIoFxkQ
             type: base
             system:
@@ -8926,7 +8926,7 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793284514709
-  modifiedTime: 1793285394399
+  modifiedTime: 1793370479779
   lastModifiedBy: Iv6xqmV7YXpxJqTA
   compendiumSource: null
   duplicateSource: null

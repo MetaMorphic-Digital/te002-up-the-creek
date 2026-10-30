@@ -726,7 +726,7 @@ actors:
               modifiedTime: null
               duplicateSource: null
               exportSource: null
-            img: icons/svg/aura.svg
+            img: systems/torgeternity/images/icons/torgeternity-icon.webp
             type: base
             system:
               applyIfAttackTrait: []
@@ -815,7 +815,7 @@ actors:
               modifiedTime: null
               duplicateSource: null
               exportSource: null
-            img: icons/svg/aura.svg
+            img: systems/torgeternity/images/icons/torgeternity-icon.webp
             type: base
             system:
               applyIfAttackTrait: []
@@ -860,7 +860,7 @@ actors:
               expiry: null
               expired: false
             disabled: false
-            img: icons/svg/aura.svg
+            img: systems/torgeternity/images/icons/torgeternity-icon.webp
             _id: bAr0nuuaRu94VRQd
             type: base
             system:
@@ -1374,7 +1374,7 @@ actors:
           groupName: interaction
           isFav: false
           unskilledUse: true
-          defenseOnly: false
+          defenseOnly: true
           isThreatSkill: false
         unarmedCombat:
           adds: 3
@@ -1789,7 +1789,7 @@ actors:
           expired: false
         disabled: false
         name: Shock +2
-        img: icons/svg/aura.svg
+        img: modules/te002-up-the-creek/portraits/edeinos-warrior-large.webp
         _id: Ry1d2KKXZ8lBy7qX
         type: base
         system:
@@ -2135,7 +2135,7 @@ actors:
           groupName: interaction
           isFav: false
           unskilledUse: true
-          defenseOnly: false
+          defenseOnly: true
           isThreatSkill: false
         telepathy:
           adds: 0
@@ -2159,7 +2159,7 @@ actors:
           groupName: interaction
           isFav: false
           unskilledUse: true
-          defenseOnly: false
+          defenseOnly: true
           isThreatSkill: false
         unarmedCombat:
           adds: 2
@@ -8807,7 +8807,7 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793283533619
-  modifiedTime: 1793285404548
+  modifiedTime: 1793370475072
   lastModifiedBy: Iv6xqmV7YXpxJqTA
   compendiumSource: null
   duplicateSource: null

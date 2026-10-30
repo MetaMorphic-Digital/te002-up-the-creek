@@ -203,7 +203,195 @@ actors:
           modifiedTime: null
           duplicateSource: null
           exportSource: null
-    effects: []
+    effects:
+      - origin: Item.4GpvlgRViSMgl1gx
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        disabled: false
+        _id: ZjYWH9faG0S5WhYm
+        tint: '#ffffff'
+        transfer: false
+        flags: {}
+        name: Shock +4
+        description: ''
+        statuses: []
+        _stats:
+          compendiumSource: null
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+          duplicateSource: null
+          exportSource: null
+        img: systems/torgeternity/images/icons/torgeternity-icon.webp
+        type: base
+        system:
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+          changes:
+            - key: system.shock.max
+              value: 4
+              priority: null
+              type: add
+              phase: initial
+          applyOnOutcome: ''
+          transferOnOutcome: ''
+          transferTo: target
+          activeIfTrait: []
+          defendAgainstTrait: []
+          applyIfAttackTraitCombine: or
+          applyIfDefendTraitCombine: or
+          defendAgainstTraitCombine: or
+          itemsToBestow: []
+          combatToggle: false
+          concentratingId: null
+          emanation:
+            radius: null
+            color: '#000040'
+            disposition: 1
+            visibility: 4
+        sort: 0
+        start:
+          combat: null
+          round: 3
+          time: 0
+          turn: null
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
+      - name: Move +2
+        origin: Item.KGmWH09zF3QGTBDs
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        disabled: false
+        img: systems/torgeternity/images/icons/torgeternity-icon.webp
+        _id: 92KOmE1gKSTCK2FL
+        type: base
+        system:
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+          changes:
+            - key: system.other.moveMod
+              value: 2
+              priority: null
+              type: add
+              phase: initial
+            - key: system.other.runMod
+              value: 6
+              priority: null
+              type: add
+              phase: initial
+          applyOnOutcome: ''
+          transferOnOutcome: ''
+          transferTo: target
+          activeIfTrait: []
+          defendAgainstTrait: []
+          applyIfAttackTraitCombine: or
+          applyIfDefendTraitCombine: or
+          defendAgainstTraitCombine: or
+          itemsToBestow: []
+          combatToggle: false
+          concentratingId: null
+          emanation:
+            radius: null
+            color: '#000040'
+            disposition: 1
+            visibility: 4
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          combat: null
+          round: 3
+          time: 0
+          turn: null
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
+      - origin: Item.4GpvlgRViSMgl1gx
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        disabled: false
+        _id: N4tAIUsT0K3GiNZ4
+        tint: '#ffffff'
+        transfer: false
+        flags: {}
+        name: Armor +3
+        description: ''
+        statuses: []
+        _stats:
+          compendiumSource: null
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+          duplicateSource: null
+          exportSource: null
+        img: systems/torgeternity/images/icons/torgeternity-icon.webp
+        type: base
+        system:
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+          changes:
+            - key: system.defenses.armor
+              value: 3
+              priority: null
+              type: add
+              phase: initial
+          applyOnOutcome: ''
+          transferOnOutcome: ''
+          transferTo: target
+          activeIfTrait: []
+          defendAgainstTrait: []
+          applyIfAttackTraitCombine: or
+          applyIfDefendTraitCombine: or
+          defendAgainstTraitCombine: or
+          itemsToBestow: []
+          combatToggle: false
+          concentratingId: null
+          emanation:
+            radius: null
+            color: '#000040'
+            disposition: 1
+            visibility: 4
+        sort: 0
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
     folder: RX9GS4jjEQugUEOi
     flags:
       core: {}
@@ -212,7 +400,7 @@ actors:
         value: 0
       wounds:
         max: 4
-        value: null
+        value: 0
       attributes:
         charisma:
           base: 4
@@ -227,7 +415,7 @@ actors:
       other:
         cosm: none
         possibilities:
-          value: 3
+          value: 0
         piety: 0
       skills:
         airVehicles:
@@ -288,11 +476,11 @@ actors:
           defenseOnly: false
         dodge:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         energyWeapons:
           baseAttribute: dexterity
@@ -320,11 +508,11 @@ actors:
           defenseOnly: false
         find:
           baseAttribute: mind
-          adds: 0
+          adds: 4
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         fireCombat:
           baseAttribute: dexterity
@@ -352,11 +540,11 @@ actors:
           defenseOnly: false
         intimidation:
           baseAttribute: spirit
-          adds: 0
+          adds: 5
           isFav: false
           groupName: interaction
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         kinesis:
           baseAttribute: spirit
@@ -392,11 +580,11 @@ actors:
           defenseOnly: false
         maneuver:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: interaction
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         medicine:
           baseAttribute: mind
@@ -472,11 +660,11 @@ actors:
           defenseOnly: false
         stealth:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         streetwise:
           baseAttribute: charisma
@@ -496,12 +684,12 @@ actors:
           defenseOnly: false
         taunt:
           baseAttribute: charisma
-          adds: 0
+          adds: 5
           isFav: false
           groupName: interaction
           unskilledUse: true
-          isThreatSkill: false
-          defenseOnly: false
+          isThreatSkill: true
+          defenseOnly: true
         telepathy:
           baseAttribute: charisma
           adds: 0
@@ -512,11 +700,11 @@ actors:
           defenseOnly: false
         tracking:
           baseAttribute: mind
-          adds: 0
+          adds: 5
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         trick:
           baseAttribute: mind
@@ -528,11 +716,11 @@ actors:
           defenseOnly: false
         unarmedCombat:
           baseAttribute: dexterity
-          adds: 0
+          adds: 3
           isFav: false
           groupName: combat
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         waterVehicles:
           baseAttribute: dexterity
@@ -558,7 +746,7 @@ actors:
           terriens les appellent souvent des « rex » à cause de leur
           ressemblance avec la manière dont sont dépeints les tyrannosaures par
           les médias.</p>
-        sizeBonus: normal
+        sizeBonus: veryLarge
         possibilityPotential: jamais
         clearance: alpha
       editstate: false
@@ -879,7 +1067,69 @@ actors:
           modifiedTime: null
           duplicateSource: null
           exportSource: null
-    effects: []
+    effects:
+      - origin: >-
+          Compendium.te001-core-rulebook.grw-de-bedrohungen.Actor.t9sDWEpMVNTAkIoP
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        disabled: false
+        name: Shock +2
+        img: modules/te002-up-the-creek/portraits/Edeinos_Warrior.Avatar.webp
+        _id: XHRHNeGbvXKELc14
+        type: base
+        system:
+          applyIfAttackTrait: []
+          applyIfDefendTrait: []
+          changes:
+            - key: system.shock.max
+              value: 2
+              priority: null
+              type: add
+              phase: initial
+          applyOnOutcome: ''
+          transferOnOutcome: ''
+          transferTo: target
+          activeIfTrait: []
+          defendAgainstTrait: []
+          applyIfAttackTraitCombine: or
+          applyIfDefendTraitCombine: or
+          defendAgainstTraitCombine: or
+          itemsToBestow: []
+          combatToggle: false
+          concentratingId: null
+          emanation:
+            radius: null
+            color: '#000040'
+            disposition: 1
+            visibility: 4
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          combat: null
+          round: null
+          time: 0
+          turn: null
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
     folder: RX9GS4jjEQugUEOi
     flags:
       core: {}
@@ -887,8 +1137,8 @@ actors:
       shock:
         value: 0
       wounds:
-        max: null
-        value: null
+        max: 0
+        value: 0
       attributes:
         charisma:
           base: 5
@@ -932,11 +1182,11 @@ actors:
           defenseOnly: false
         beastRiding:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         computers:
           baseAttribute: mind
@@ -964,11 +1214,11 @@ actors:
           defenseOnly: false
         dodge:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         energyWeapons:
           baseAttribute: dexterity
@@ -988,19 +1238,19 @@ actors:
           defenseOnly: false
         faith:
           baseAttribute: spirit
-          adds: 0
+          adds: 1
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         find:
           baseAttribute: mind
-          adds: 0
+          adds: 2
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         fireCombat:
           baseAttribute: dexterity
@@ -1028,11 +1278,11 @@ actors:
           defenseOnly: false
         intimidation:
           baseAttribute: spirit
-          adds: 0
+          adds: 2
           isFav: false
           groupName: interaction
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         kinesis:
           baseAttribute: spirit
@@ -1068,11 +1318,11 @@ actors:
           defenseOnly: false
         maneuver:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: interaction
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         medicine:
           baseAttribute: mind
@@ -1084,19 +1334,19 @@ actors:
           defenseOnly: false
         meleeWeapons:
           baseAttribute: dexterity
-          adds: 0
+          adds: 2
           isFav: false
           groupName: combat
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         missileWeapons:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: combat
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         persuasion:
           baseAttribute: charisma
@@ -1148,11 +1398,11 @@ actors:
           defenseOnly: false
         stealth:
           baseAttribute: dexterity
-          adds: 0
+          adds: 1
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         streetwise:
           baseAttribute: charisma
@@ -1164,11 +1414,11 @@ actors:
           defenseOnly: false
         survival:
           baseAttribute: mind
-          adds: 0
+          adds: 2
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         taunt:
           baseAttribute: charisma
@@ -1188,11 +1438,11 @@ actors:
           defenseOnly: false
         tracking:
           baseAttribute: mind
-          adds: 0
+          adds: 2
           isFav: false
           groupName: other
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         trick:
           baseAttribute: mind
@@ -1204,11 +1454,11 @@ actors:
           defenseOnly: false
         unarmedCombat:
           baseAttribute: dexterity
-          adds: 0
+          adds: 2
           isFav: false
           groupName: combat
           unskilledUse: true
-          isThreatSkill: false
+          isThreatSkill: true
           defenseOnly: false
         waterVehicles:
           baseAttribute: dexterity
@@ -1410,45 +1660,6 @@ actors:
           modifiedTime: null
           duplicateSource: null
           exportSource: null
-      - _id: KsqUDgL3sotimHYQ
-        name: Infatigable
-        type: specialability-rollable
-        img: systems/torgeternity/images/icons/torgeternity-icon.webp
-        effects: []
-        folder: null
-        sort: 100000
-        flags:
-          core: {}
-        system:
-          ap: null
-          attackWith: airVehicles
-          chatNote: ''
-          damage: null
-          description: <p>les gospogs ignorent les points de Choc.</p>
-          cosm: none
-          traits: []
-          axioms:
-            magic: 0
-            social: 0
-            spirit: 0
-            tech: 0
-          itemsToBestow: []
-          bestowedBy: null
-          attuned: false
-        ownership:
-          default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
-        _stats:
-          compendiumSource: null
-          coreVersion: '14.369'
-          systemId: torgeternity
-          systemVersion: 14.7.4
-          lastModifiedBy: null
-          createdTime: null
-          modifiedTime: null
-          duplicateSource: null
-          exportSource: null
       - _id: wyCfh2kXNVhcNWSr
         name: Peur
         type: specialability
@@ -1539,6 +1750,40 @@ actors:
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
+          duplicateSource: null
+          exportSource: null
+      - name: Infatigable
+        type: specialability
+        _id: fY0GGw18kMDwMEJJ
+        img: systems/torgeternity/images/icons/torgeternity-icon.webp
+        system:
+          cosm: none
+          description: <p>les gospogs ignorent les points de Choc.</p>
+          traits:
+            - ignoreShock
+          axioms:
+            magic: 0
+            social: 0
+            spirit: 0
+            tech: 0
+          itemsToBestow: []
+          bestowedBy: null
+          attuned: false
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+          Iv6xqmV7YXpxJqTA: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
           duplicateSource: null
           exportSource: null
     effects: []
@@ -1695,7 +1940,7 @@ actors:
           groupName: interaction
           unskilledUse: true
           isThreatSkill: false
-          defenseOnly: false
+          defenseOnly: true
         kinesis:
           baseAttribute: spirit
           adds: 0
@@ -1839,7 +2084,7 @@ actors:
           groupName: interaction
           unskilledUse: true
           isThreatSkill: false
-          defenseOnly: false
+          defenseOnly: true
         telepathy:
           baseAttribute: charisma
           adds: 0
@@ -1863,7 +2108,7 @@ actors:
           groupName: interaction
           unskilledUse: true
           isThreatSkill: false
-          defenseOnly: false
+          defenseOnly: true
         unarmedCombat:
           baseAttribute: dexterity
           adds: 3
@@ -2071,7 +2316,7 @@ journal:
           level: 1
         text:
           format: 1
-          content: "<h1>Introduction</h1><p class=\"MsoNormal\"><strong>Situation</strong> : salle de réunion à bord de l’USS Theodore Roosevelt.</p><p class=\"MsoNormal\">Lisez à voix haute ou paraphrasez le texte suivant :</p><blockquote><p class=\"MsoQuote\">« Il y a trois mois, le monde tel que nous le connaissions a changé. D’étranges ponts se sont abattus du ciel sur différents sites à travers la planète et là où ils sont tombés, la réalité a été déformée et modifiée. Des envahisseurs ont traversé ces ponts et, désormais, ils transforment la Terre en autre chose, morceau par morceau. Le choc entre les réalités provoque des tempêtes qui ont un étrange effet sur certains individus. Ils deviennent des héros, les meilleures versions d’eux-mêmes issues de cette réalité ou des autres. Vous tous qui êtes assis ici faites partie de ces individus. »</p></blockquote><p class=\"MsoNormal\">Faites choisir aux joueurs un personnage puis laissezles se présenter et décrire qui est assis à la table de réunion. Pour l’instant, expliquez aux joueurs que vous répondrez plus tard aux questions qu’ils peuvent se poser sur les caractéristiques de leurs personnages et ce à quoi fait référence la partie Tactiques.</p><p class=\"MsoNormal\">Attirez leur attention sur le paragraphe de leur fiche appelé Instant fatidique. C’est le moment précis au cours duquel le héros, qui était jusqu’alors une personne ordinaire, s’est transformé en Chevalier des Tempêtes. Cela arrive quand un individu est confronté à un danger et agit pour aider les autres ou pour combattre une réalité invasive. Quand cela se produit, le héros est baigné d’une énergie brute et il acquiert le pouvoir d’asservir la réalité à sa propre volonté. En termes de jeu, cela signifie que chacun d’eux a des jetons Possibilité et une main de Cartes de Destin.</p><h3>Énergie des possibilités</h3><p class=\"MsoNormal\">Donnez à chaque joueur trois jetons Possibilité. Ils peuvent les utiliser pour éviter des dommages ou améliorer leurs jets de dé. N’entrez pas dans les détails, mais précisez que c’est une mesure de la puissance dont ils disposent pour « contrer » la réalité. Quand un joueur fait quelque chose qui plaît à tous les participants, donnez-lui un autre jeton Possibilité pour le récompenser. Note : le Vagabond des royaumes commence avec quatre jetons au lieu de trois.</p><h3>Cartes de Destin</h3><p class=\"MsoNormal\">Distribuez à chaque joueur quatre Cartes de Destin. Chaque carte explique ce qu’elle fait, mais il se peut qu’elle soit obscure jusqu’à ce que les joueurs fassent leurs premiers tests. En dehors des combats, ces cartes peuvent être jouées par les joueurs ou échangées entre eux (une pour une) à n’importe quel moment. Pour cette initiation au jeu, utilisez le \_@UUID[Compendium.te002-up-the-creek.Au-dela-du-fleuve-cartes-fr.Cards.ujDucwTZVJ5J8I4S]{Paquet du Destin (Au-delà du fleuve)(fr)}. Les Cartes de Destin suivantes ont été retirées du paquet de base : Martyr, Vivacité, Plan génial, Relation, Idée, Harmonisation, Gloire, Romance, Némésis, Poussée de réalité et Maelström.</p><h2>Briefing de la mission</h2><p class=\"MsoNormal\">Un officier (le Capitaine McDonnell, s’ils vous posent la question) présente la mission aux Chevaliers des Tempêtes. Lisez le texte suivant à voix haute.</p><blockquote><p class=\"MsoQuote\">« Le Conseil de Delphes nous a demandé notre soutien pour une mission de reconnaissance dans la zone étrangère qui s’est abattue sur les deux côtes d’Amérique du Nord. Ils l’appellent la « Terre Vivante ». Si nous envoyons des troupes régulières dans cette zone, leurs armes cessent de fonctionner et un phénomène les renvoie à un état primitif. Mais vous, en tant que Chevaliers des Tempêtes, vous n’êtes pas aussi gravement affectés par la réalité altérée, aussi nous dépendons de vous. Ces zones d’invasion sont délimitées par des monolithes de pierre appelés des stelae. Nous étudions ces stelae pour comprendre comment les utiliser contre les envahisseurs, mais nous devons d’abord les trouver.</p><p class=\"MsoQuote\"><span style=\"mso-spacerun:yes\">\_</span>« Votre mission est simple, mais pas obligatoirement facile. Nous avons modifié un bateau d’excursion pour qu’il vous conduise à l’intérieur des terres. Remontez le fleuve Columbia aussi loin que vous le pouvez jusqu’après les ruines d’Astoria. Là-bas, des survivants ont entendu parler d’une stela quelque part à l’intérieur des terres, peut-être une sorte de structure de secours. En atteignant les décombres de la Route 433, accostez, trouvez la stela et déterminez si c’est juste de la pierre inerte ou autre chose. N’essayez pas de la détruire pour le moment, nous voulons juste ses coordonnées et votre impression en tant que « Chevalier des Tempêtes » pour savoir si elle <span class=\"CitationCar\">représente un danger ou non. « Des questions ? »</span></p></blockquote><h3>Questions potentielles et réponses</h3><p class=\"MsoNormal\">• <strong>À quoi devons-nous nous attendre sur la Terre Vivante ? </strong>Des maladies et un environnement brutal et primitif. Les technologies supérieures à celle des lances et des arcs ne fonctionnent pas pour les gens ordinaires et les métaux rouillent à une vitesse accélérée s’ils ne sont pas entretenus. La plupart des humains affectés ne sont plus gouvernés que par leurs instincts et leurs pulsions les plus sauvages. Les envahisseurs de cette région sont des hommes-lézards appelés des edeinos. Oh ! Et faites attention aux dinosaures.</p><p class=\"MsoNormal\">• <strong>Qu’en est-il des survivants à Astoria ? </strong>Ils ont établi une communauté protégée par une palissade autour d’une maison rendue célèbre par un film. Certains sites géographiques résistent à l’altération de la réalité et dans leurs environs on trouve des poches de la « Prime Terre » où les gens peuvent se réfugier. Il y en a une à Astoria.</p><p class=\"MsoNormal\"><strong>• Le bateau est-il armé ?</strong> Non, mais vous autres les Chevaliers des Tempêtes, vous l’êtes. C’est une mission de reconnaissance, pas un assaut, et il s’agit juste d’un bateau touristique reconverti pour le transport et pas grand-chose d’autre.</p><p class=\"MsoNormal\">\_</p><p class=\"MsoNormal\">Lorsque toutes les questions ont été posées et repondues accedez à \_@UUID[.GI8pvBc9UDtX9JKR]{Scène une : Le voyage commence}</p>"
+          content: "<h1>Introduction</h1><p class=\"MsoNormal\"><strong>Situation</strong> : salle de réunion à bord de l’USS Theodore Roosevelt.</p><p class=\"MsoNormal\">Lisez à voix haute ou paraphrasez le texte suivant :</p><blockquote><p class=\"MsoQuote\">« Il y a trois mois, le monde tel que nous le connaissions a changé. D’étranges ponts se sont abattus du ciel sur différents sites à travers la planète et là où ils sont tombés, la réalité a été déformée et modifiée. Des envahisseurs ont traversé ces ponts et, désormais, ils transforment la Terre en autre chose, morceau par morceau. Le choc entre les réalités provoque des tempêtes qui ont un étrange effet sur certains individus. Ils deviennent des héros, les meilleures versions d’eux-mêmes issues de cette réalité ou des autres. Vous tous qui êtes assis ici faites partie de ces individus. »</p></blockquote><p class=\"MsoNormal\">Faites choisir aux joueurs un personnage puis laissezles se présenter et décrire qui est assis à la table de réunion. Pour l’instant, expliquez aux joueurs que vous répondrez plus tard aux questions qu’ils peuvent se poser sur les caractéristiques de leurs personnages et ce à quoi fait référence la partie Tactiques.</p><p class=\"MsoNormal\">Attirez leur attention sur le paragraphe de leur fiche appelé Instant fatidique. C’est le moment précis au cours duquel le héros, qui était jusqu’alors une personne ordinaire, s’est transformé en Chevalier des Tempêtes. Cela arrive quand un individu est confronté à un danger et agit pour aider les autres ou pour combattre une réalité invasive. Quand cela se produit, le héros est baigné d’une énergie brute et il acquiert le pouvoir d’asservir la réalité à sa propre volonté. En termes de jeu, cela signifie que chacun d’eux a des jetons Possibilité et une main de Cartes de Destin.</p><h3>Énergie des possibilités</h3><p class=\"MsoNormal\">Donnez à chaque joueur trois jetons Possibilité. Ils peuvent les utiliser pour éviter des dommages ou améliorer leurs jets de dé. N’entrez pas dans les détails, mais précisez que c’est une mesure de la puissance dont ils disposent pour « contrer » la réalité. Quand un joueur fait quelque chose qui plaît à tous les participants, donnez-lui un autre jeton Possibilité pour le récompenser. Note : le Vagabond des royaumes commence avec quatre jetons au lieu de trois.</p><h3>Cartes de Destin</h3><p class=\"MsoNormal\">Distribuez à chaque joueur quatre Cartes de Destin. Chaque carte explique ce qu’elle fait, mais il se peut qu’elle soit obscure jusqu’à ce que les joueurs fassent leurs premiers tests. En dehors des combats, ces cartes peuvent être jouées par les joueurs ou échangées entre eux (une pour une) à n’importe quel moment. Pour cette initiation au jeu, utilisez le \_@UUID[Cards.aXFBZugbaaqP3DDW]{Paquet du Destin (Au-delà du fleuve)(fr)}. Les Cartes de Destin suivantes ont été retirées du paquet de base : Martyr, Vivacité, Plan génial, Relation, Idée, Harmonisation, Gloire, Romance, Némésis, Poussée de réalité et Maelström.</p><h2>Briefing de la mission</h2><p class=\"MsoNormal\">Un officier (le Capitaine McDonnell, s’ils vous posent la question) présente la mission aux Chevaliers des Tempêtes. Lisez le texte suivant à voix haute.</p><blockquote><p class=\"MsoQuote\">« Le Conseil de Delphes nous a demandé notre soutien pour une mission de reconnaissance dans la zone étrangère qui s’est abattue sur les deux côtes d’Amérique du Nord. Ils l’appellent la « Terre Vivante ». Si nous envoyons des troupes régulières dans cette zone, leurs armes cessent de fonctionner et un phénomène les renvoie à un état primitif. Mais vous, en tant que Chevaliers des Tempêtes, vous n’êtes pas aussi gravement affectés par la réalité altérée, aussi nous dépendons de vous. Ces zones d’invasion sont délimitées par des monolithes de pierre appelés des stelae. Nous étudions ces stelae pour comprendre comment les utiliser contre les envahisseurs, mais nous devons d’abord les trouver.</p><p class=\"MsoQuote\"><span style=\"mso-spacerun:yes\">\_</span>« Votre mission est simple, mais pas obligatoirement facile. Nous avons modifié un bateau d’excursion pour qu’il vous conduise à l’intérieur des terres. Remontez le fleuve Columbia aussi loin que vous le pouvez jusqu’après les ruines d’Astoria. Là-bas, des survivants ont entendu parler d’une stela quelque part à l’intérieur des terres, peut-être une sorte de structure de secours. En atteignant les décombres de la Route 433, accostez, trouvez la stela et déterminez si c’est juste de la pierre inerte ou autre chose. N’essayez pas de la détruire pour le moment, nous voulons juste ses coordonnées et votre impression en tant que « Chevalier des Tempêtes » pour savoir si elle <span class=\"CitationCar\">représente un danger ou non. « Des questions ? »</span></p></blockquote><h3>Questions potentielles et réponses</h3><p class=\"MsoNormal\">• <strong>À quoi devons-nous nous attendre sur la Terre Vivante ? </strong>Des maladies et un environnement brutal et primitif. Les technologies supérieures à celle des lances et des arcs ne fonctionnent pas pour les gens ordinaires et les métaux rouillent à une vitesse accélérée s’ils ne sont pas entretenus. La plupart des humains affectés ne sont plus gouvernés que par leurs instincts et leurs pulsions les plus sauvages. Les envahisseurs de cette région sont des hommes-lézards appelés des edeinos. Oh ! Et faites attention aux dinosaures.</p><p class=\"MsoNormal\">• <strong>Qu’en est-il des survivants à Astoria ? </strong>Ils ont établi une communauté protégée par une palissade autour d’une maison rendue célèbre par un film. Certains sites géographiques résistent à l’altération de la réalité et dans leurs environs on trouve des poches de la « Prime Terre » où les gens peuvent se réfugier. Il y en a une à Astoria.</p><p class=\"MsoNormal\"><strong>• Le bateau est-il armé ?</strong> Non, mais vous autres les Chevaliers des Tempêtes, vous l’êtes. C’est une mission de reconnaissance, pas un assaut, et il s’agit juste d’un bateau touristique reconverti pour le transport et pas grand-chose d’autre.</p><p class=\"MsoNormal\">\_</p><p class=\"MsoNormal\">Lorsque toutes les questions ont été posées et repondues accedez à \_@UUID[.GI8pvBc9UDtX9JKR]{Scène une : Le voyage commence}</p>"
           markdown: ''
         _id: kypbwGc3EOtaNBw5
         image: {}
@@ -8055,7 +8300,1612 @@ scenes:
     active: false
 tables: []
 macros: []
-cards: []
+cards:
+  - name: Paquet du Destin (Au-delà du fleuve)(fr)
+    type: deck
+    description: This is the base deck, consisting of cards 1-40.
+    img: systems/torgeternity/images/cards/destiny-back.webp
+    cards:
+      - _id: QNQiOud2NDc6VqhN
+        name: Adrénaline
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Adrenaline
+            img: systems/torgeternity/images/cards/destiny/fr/01.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 0
+        flags:
+          core:
+            sheetClass: ''
+        value: 1
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: 9RbfWPbitRrqN0dZ
+        name: Adrénaline
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Adrenaline
+            img: systems/torgeternity/images/cards/destiny/fr/02.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 1
+        flags: {}
+        value: 2
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: sntTPq8LIwSIAk4p
+        name: Adrenaline
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Adrenaline
+            img: systems/torgeternity/images/cards/destiny/fr/03.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 2
+        flags: {}
+        value: 3
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: B5wSaQW4iuEbgtiz
+        name: Adrénaline
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Adrenaline
+            img: systems/torgeternity/images/cards/destiny/fr/04.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 3
+        flags: {}
+        value: 4
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: MBMmiDWazwkW3KiR
+        name: Volonté
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Willpower
+            img: systems/torgeternity/images/cards/destiny/05.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 4
+        flags: {}
+        value: 5
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: qqykCQx9BKEyNpgP
+        name: Volonté
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Willpower
+            img: systems/torgeternity/images/cards/destiny/fr/06.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 5
+        flags: {}
+        value: 6
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: dyrkCzxzimTlQ5dM
+        name: Volonté
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Willpower
+            img: systems/torgeternity/images/cards/destiny/fr/07.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 6
+        flags: {}
+        value: 7
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: 3aaBJH7vNIJfMjmg
+        name: Volonté
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Willpower
+            img: systems/torgeternity/images/cards/destiny/fr/08.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 7
+        flags: {}
+        value: 8
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: 9PDPCTmcuyJkzGNP
+        name: Vigilance
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Alertness
+            img: systems/torgeternity/images/cards/destiny/fr/09.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 8
+        flags: {}
+        value: 9
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: kFQRDS2UvarWOrVa
+        name: Vigilance
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Alertness
+            img: systems/torgeternity/images/cards/destiny/fr/10.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 9
+        flags: {}
+        value: 10
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        width: null
+        height: null
+      - _id: QhQxO9CmYq1Ty7Yb
+        name: Martyr
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Martyr
+            img: systems/torgeternity/images/cards/destiny/fr/11.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 10
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 11
+        width: null
+        height: null
+      - _id: rGP0PIsncAS9hiuK
+        name: Action
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Action
+            img: systems/torgeternity/images/cards/destiny/fr/12.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 11
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 12
+        width: null
+        height: null
+      - _id: oQOszX7NaEqTAdtk
+        name: Action
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Action
+            img: systems/torgeternity/images/cards/destiny/fr/13.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 12
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 13
+        width: null
+        height: null
+      - _id: PEDthqqt73E3nFH7
+        name: Action
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Action
+            img: systems/torgeternity/images/cards/destiny/fr/14.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 13
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 14
+        width: null
+        height: null
+      - _id: BjWfkekozqanOOpi
+        name: Action
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Action
+            img: systems/torgeternity/images/cards/destiny/fr/15.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 14
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 15
+        width: null
+        height: null
+      - _id: NeO9qJJm7h3dcPFS
+        name: Inspiration
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Inspire
+            img: systems/torgeternity/images/cards/destiny/fr/20.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 19
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 20
+        width: null
+        height: null
+      - _id: MD9IXra3Kg8AsoLC
+        name: Prise d'initiative
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Seize Initiative
+            img: systems/torgeternity/images/cards/destiny/fr/21.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 20
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 21
+        width: null
+        height: null
+      - _id: y4iQoYh6HJtgNP8k
+        name: Prise d'initiative
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Seize Initiative
+            img: systems/torgeternity/images/cards/destiny/fr/22.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 21
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 22
+        width: null
+        height: null
+      - _id: QTbn3MU8XOCu72Qh
+        name: Héros
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Hero
+            img: systems/torgeternity/images/cards/destiny/fr/23.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 22
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 23
+        width: null
+        height: null
+      - _id: 49VU9IQRlnGTk95V
+        name: Héros
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Hero
+            img: systems/torgeternity/images/cards/destiny/fr/24.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 23
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 24
+        width: null
+        height: null
+      - _id: Ahda2A3mbeLP8jMa
+        name: Héros
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Hero
+            img: systems/torgeternity/images/cards/destiny/fr/25.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 24
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 25
+        width: null
+        height: null
+      - _id: XLnggniF6MeKbQb0
+        name: Héros
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Hero
+            img: systems/torgeternity/images/cards/destiny/fr/26.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 25
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 26
+        width: null
+        height: null
+      - _id: P0dXYdycAU8vaEHE
+        name: Echec de l'adversaire
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Opponent Fails
+            img: systems/torgeternity/images/cards/destiny/fr/27.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 26
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 27
+        width: null
+        height: null
+      - _id: HEAktogbcv9wQjBX
+        name: Echec de l'adversaire
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Opponent Fails
+            img: systems/torgeternity/images/cards/destiny/fr/28.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 27
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 28
+        width: null
+        height: null
+      - _id: dKqAsnEqw4X3JYiH
+        name: Ralliement
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Rally
+            img: systems/torgeternity/images/cards/destiny/fr/29.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 28
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 29
+        width: null
+        height: null
+      - _id: 2iLwtpYNKXvKM3Zs
+        name: Seconde Chance
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Second Chance
+            img: systems/torgeternity/images/cards/destiny/fr/30.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 29
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 30
+        width: null
+        height: null
+      - _id: A3spRSjAWL0WtBLW
+        name: Seconde Chance
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Second Chance
+            img: systems/torgeternity/images/cards/destiny/fr/31.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 30
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 31
+        width: null
+        height: null
+      - _id: p2TpBQgnlayrH0nL
+        name: Seconde Chance
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Second Chance
+            img: systems/torgeternity/images/cards/destiny/fr/32.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 31
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 32
+        width: null
+        height: null
+      - _id: 2jNqAJZ7F5EIbvwY
+        name: Coup de Grâce
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Coup de Grace
+            img: systems/torgeternity/images/cards/destiny/fr/41.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 40
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 41
+        width: null
+        height: null
+      - _id: NYX7KoR7GPdDQbKZ
+        name: Coup de Grâce
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Alertness
+            img: systems/torgeternity/images/cards/destiny/fr/42.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 41
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 42
+        width: null
+        height: null
+      - _id: NAwZk85l54xNeKGw
+        name: Coup de Grâce
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Coup de Grace
+            img: systems/torgeternity/images/cards/destiny/fr/43.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 42
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 43
+        width: null
+        height: null
+      - _id: Y3MABirDhmLgkwCW
+        name: Drame
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Drama
+            img: systems/torgeternity/images/cards/destiny/fr/46.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 45
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 46
+        width: null
+        height: null
+      - _id: iDgmTUMMdrKEXU8J
+        name: Drame
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Drama
+            img: systems/torgeternity/images/cards/destiny/fr/47.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 46
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 47
+        width: null
+        height: null
+      - _id: 9uI6pOnlstYKFDF3
+        name: Drame
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Drama
+            img: systems/torgeternity/images/cards/destiny/fr/48.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 47
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 48
+        width: null
+        height: null
+      - _id: JE7yYbN2oB7wxxhh
+        name: Drame
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Drama
+            img: systems/torgeternity/images/cards/destiny/fr/49.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 48
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 49
+        width: null
+        height: null
+      - _id: OZJCMK2JcRcH62Us
+        name: Commandement
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Leadership
+            img: systems/torgeternity/images/cards/destiny/fr/50.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 49
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 50
+        width: null
+        height: null
+      - _id: zMAwMFRkMPerVMbQ
+        name: Commandement
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Leadership
+            img: systems/torgeternity/images/cards/destiny/fr/51.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 50
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 51
+        width: null
+        height: null
+      - _id: uN9XUgHlKV34QmBD
+        name: Soutient
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Supporter
+            img: systems/torgeternity/images/cards/destiny/fr/52.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 51
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 52
+        width: null
+        height: null
+      - _id: QRNI6ELNyDClV44u
+        name: Soutient
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Supporter
+            img: systems/torgeternity/images/cards/destiny/fr/53.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 52
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 53
+        width: null
+        height: null
+      - _id: dTCzNeSkFdYr3QTe
+        name: Soutient
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Supporter
+            img: systems/torgeternity/images/cards/destiny/fr/54.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 53
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 54
+        width: null
+        height: null
+      - _id: YWcu76HQJDo6LNoX
+        name: Soutient
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Supporter
+            img: systems/torgeternity/images/cards/destiny/fr/55.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 54
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 55
+        width: null
+        height: null
+      - _id: SF5ooJQ5pDA08luB
+        name: Second souffle
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Second Wind
+            img: systems/torgeternity/images/cards/destiny/fr/56.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 55
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 56
+        width: null
+        height: null
+      - _id: QwhaMbWtLEN5zKtY
+        name: Second souffle
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Second Wind
+            img: systems/torgeternity/images/cards/destiny/fr/57.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 56
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 57
+        width: null
+        height: null
+      - _id: OwqgbFKZXr9kzhnu
+        name: Transfer
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Transfer
+            img: systems/torgeternity/images/cards/destiny/fr/58.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: 9PJd5XGY6Zg9aQNk
+        rotation: 0
+        sort: 57
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 58
+        width: null
+        height: null
+      - _id: Eevs4Gahak0PvGj7
+        name: Coup de Grâce
+        description: ''
+        type: destiny
+        suit: ''
+        back:
+          name: ''
+          text: ''
+          img: null
+        faces:
+          - name: Coup de Grace
+            img: systems/torgeternity/images/cards/destiny/fr/40.webp
+            text: ''
+        face: 0
+        drawn: false
+        origin: BStvPwzBNRpPHVLO
+        rotation: 0
+        sort: 39
+        flags: {}
+        _stats:
+          coreVersion: '14.369'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        system:
+          pooled: false
+          macro: null
+        value: 40
+        width: null
+        height: null
+    rotation: 0
+    displayCount: false
+    folder: NGBLa5iTkkRuawl4
+    flags:
+      core: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: torgeternity
+      systemVersion: 14.7.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.te002-up-the-creek.Au-dela-du-fleuve-cartes-fr.Cards.ujDucwTZVJ5J8I4S
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    system: {}
+    width: null
+    height: null
+    _id: aXFBZugbaaqP3DDW
+    sort: 0
 playlists: []
 folders:
   - name: Au-delà du fleuve (fr)
@@ -8115,6 +9965,25 @@ folders:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+  - name: 'Au-delà du fleuve: cartes (fr)'
+    type: Cards
+    color: '#415a9b'
+    _id: NGBLa5iTkkRuawl4
+    description: ''
+    folder: null
+    sorting: a
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: torgeternity
+      systemVersion: 14.7.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
 _id: 3WjttA0xmDbHLGBP
 folder: null
 flags: {}
@@ -8123,7 +9992,7 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793284556479
-  modifiedTime: 1793285386893
+  modifiedTime: 1793370409960
   lastModifiedBy: Iv6xqmV7YXpxJqTA
   compendiumSource: null
   duplicateSource: null
