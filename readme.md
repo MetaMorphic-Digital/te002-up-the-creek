@@ -18,7 +18,7 @@ Up the Creek contains:
 
 * The complete text for the adventure, linked to the basic rules, which are already included for free in the Torg Eternity system
 
-* Can be run with the free module and the free Torg Eternity system installed - no other materials needed
+* Can be run with the free module and the free [Torg Eternity](https://github.com/MetaMorphic-Digital/torgeternity) system installed - no other materials needed
 
 ## Deutsch
 **Ort**: Besprechungsraum an Bord der USS Theodore Roosevelt.
@@ -33,7 +33,7 @@ Flussaufwärts enthält:
 
 * Der komplette Text des Abenteuers, verbunden mit den Grundregeln, die bereits kostenlos im Torg Eternity System enthalten sind
 
-Kann mit dem kostenlosen Modul und dem kostenlosen Torg Eternity System gespielt werden - kein weiteres Material erforderlich
+Kann mit dem kostenlosen Modul und dem kostenlosen [Torg Eternity](https://github.com/MetaMorphic-Digital/torgeternity) System gespielt werden - kein weiteres Material erforderlich
 
 ## En français
 **Situation** : salle de réunion à bord de l'USS Theodore Roosevelt.
@@ -50,4 +50,4 @@ Au-delà du Fleuve contient :
 
 * Le texte complet de l'aventure, lié aux règles de base, qui sont déjà incluses gratuitement dans le system Torg Eternity
 
-* Aucun autre matériel n'est nécessaire que le system Torg Eternity gratuit.
+* Aucun autre matériel n'est nécessaire que le system [Torg Eternity](https://github.com/MetaMorphic-Digital/torgeternity) gratuit.
