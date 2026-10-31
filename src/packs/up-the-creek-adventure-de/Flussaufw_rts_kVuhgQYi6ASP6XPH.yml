@@ -3185,7 +3185,7 @@ journal:
     sort: 100000
 scenes:
   - name: Boot
-    navigation: false
+    navigation: true
     navName: Boot
     thumb: modules/te002-up-the-creek/assets/scenes/9rsfXYxsCNzQ9dnr-thumb.webp
     width: 1297
@@ -3226,16 +3226,14 @@ scenes:
         isMixed: false
         cosm2: coreEarth
         dimLightThreshold: 0.2
-        darkThreshold:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+        darkThreshold: null
         axioms:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+          magic: 1
+          social: 7
+          spirit: 24
+          tech: 6
+        otherName1: ''
+        otherName2: ''
     regions: []
     _stats:
       coreVersion: '14.369'
@@ -3327,7 +3325,7 @@ scenes:
     sort: 0
     active: false
   - name: Dschungelpfad
-    navigation: false
+    navigation: true
     navName: ''
     thumb: modules/te002-up-the-creek/assets/scenes/DaifP6vb1B8iptzk-thumb.png
     width: 11250
@@ -8755,16 +8753,15 @@ scenes:
         cosm: livingLand
         zone: pure
         dimLightThreshold: 0.2
-        darkThreshold:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+        darkThreshold: null
         axioms:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+          magic: 1
+          social: 7
+          spirit: 24
+          tech: 6
+        cosm2: none
+        otherName1: ''
+        otherName2: ''
       core: {}
     regions: []
     _stats:
@@ -8926,8 +8923,8 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793284514709
-  modifiedTime: 1793370479779
-  lastModifiedBy: Iv6xqmV7YXpxJqTA
+  modifiedTime: 1793444708444
+  lastModifiedBy: VLUYtUykEuky2tVx
   compendiumSource: null
   duplicateSource: null
   exportSource: null

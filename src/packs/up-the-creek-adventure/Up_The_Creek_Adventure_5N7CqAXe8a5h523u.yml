@@ -3072,7 +3072,7 @@ journal:
     sort: 100000
 scenes:
   - name: Converted Tour Boat
-    navigation: false
+    navigation: true
     navName: Converted Tour Boat
     thumb: modules/te002-up-the-creek/assets/scenes/Xv70JC1JdMri1Zvr-thumb.webp
     width: 1297
@@ -3115,10 +3115,12 @@ scenes:
         dimLightThreshold: 0.05
         darkThreshold: 0.9
         axioms:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+          magic: 1
+          social: 7
+          spirit: 24
+          tech: 6
+        otherName1: ''
+        otherName2: ''
     regions: []
     _stats:
       compendiumSource: Compendium.te002-up-the-creek.up-the-creek-scenes.Scene.Xv70JC1JdMri1Zvr
@@ -3209,7 +3211,7 @@ scenes:
     sort: 0
     active: false
   - name: Jungle Path
-    navigation: false
+    navigation: true
     navName: ''
     thumb: modules/te002-up-the-creek/assets/scenes/fLDvGfUxWM0NQOsX-thumb.png
     width: 11250
@@ -8637,16 +8639,15 @@ scenes:
         cosm: livingLand
         zone: pure
         dimLightThreshold: 0.2
-        darkThreshold:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+        darkThreshold: null
         axioms:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+          magic: 1
+          social: 7
+          spirit: 24
+          tech: 6
+        cosm2: none
+        otherName1: ''
+        otherName2: ''
       core: {}
     regions: []
     _stats:
@@ -8807,8 +8808,8 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793283533619
-  modifiedTime: 1793370475072
-  lastModifiedBy: Iv6xqmV7YXpxJqTA
+  modifiedTime: 1793444704243
+  lastModifiedBy: VLUYtUykEuky2tVx
   compendiumSource: null
   duplicateSource: null
   exportSource: null

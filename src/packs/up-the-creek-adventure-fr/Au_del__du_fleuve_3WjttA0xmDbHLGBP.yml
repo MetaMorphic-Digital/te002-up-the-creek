@@ -2488,7 +2488,7 @@ journal:
     sort: 0
 scenes:
   - name: Principale
-    navigation: false
+    navigation: true
     navName: Principale
     thumb: modules/te002-up-the-creek/assets/scenes/2mqeS8jMuMETznpC-thumb.png
     width: 4096
@@ -2627,7 +2627,7 @@ scenes:
     sort: 0
     active: false
   - name: Bateau d'excursion modifié
-    navigation: false
+    navigation: true
     navName: Bateau d'excursion modifié
     thumb: modules/te002-up-the-creek/assets/scenes/PLMs3zx3VVtdxxTx-thumb.png
     width: 1297
@@ -2668,16 +2668,14 @@ scenes:
         isMixed: false
         cosm2: coreEarth
         dimLightThreshold: 0.2
-        darkThreshold:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+        darkThreshold: null
         axioms:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+          magic: 1
+          social: 7
+          spirit: 24
+          tech: 6
+        otherName1: ''
+        otherName2: ''
     regions: []
     _stats:
       coreVersion: '14.369'
@@ -2769,7 +2767,7 @@ scenes:
     sort: 0
     active: false
   - name: Piste dans la jungle
-    navigation: false
+    navigation: true
     navName: Piste dans la jungle
     thumb: modules/te002-up-the-creek/assets/scenes/YYwwQ1GCvUGYmU5V-thumb.png
     width: 11250
@@ -8197,16 +8195,15 @@ scenes:
         cosm: livingLand
         zone: pure
         dimLightThreshold: 0.2
-        darkThreshold:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+        darkThreshold: null
         axioms:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+          magic: 1
+          social: 7
+          spirit: 24
+          tech: 6
+        cosm2: none
+        otherName1: ''
+        otherName2: ''
       core: {}
     regions: []
     _stats:
@@ -8306,7 +8303,7 @@ cards:
     description: This is the base deck, consisting of cards 1-40.
     img: systems/torgeternity/images/cards/destiny-back.webp
     cards:
-      - _id: QNQiOud2NDc6VqhN
+      - _id: BMTJTl6NLhsdHIzf
         name: Adrénaline
         description: ''
         type: destiny
@@ -8343,7 +8340,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: 9RbfWPbitRrqN0dZ
+      - _id: YE07RXO32sCLkhxy
         name: Adrénaline
         description: ''
         type: destiny
@@ -8378,7 +8375,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: sntTPq8LIwSIAk4p
+      - _id: gaI737Ajwj4U9SYA
         name: Adrenaline
         description: ''
         type: destiny
@@ -8413,7 +8410,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: B5wSaQW4iuEbgtiz
+      - _id: mEYTobuNFV86gHCq
         name: Adrénaline
         description: ''
         type: destiny
@@ -8448,7 +8445,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: MBMmiDWazwkW3KiR
+      - _id: AvqxnoLiZ6wp3FpC
         name: Volonté
         description: ''
         type: destiny
@@ -8483,7 +8480,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: qqykCQx9BKEyNpgP
+      - _id: 5EdnebDFGYzGiwdA
         name: Volonté
         description: ''
         type: destiny
@@ -8518,7 +8515,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: dyrkCzxzimTlQ5dM
+      - _id: RxINYDsrGcDBIRXL
         name: Volonté
         description: ''
         type: destiny
@@ -8553,7 +8550,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: 3aaBJH7vNIJfMjmg
+      - _id: Zcab37eEbeJ6QVK6
         name: Volonté
         description: ''
         type: destiny
@@ -8588,7 +8585,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: 9PDPCTmcuyJkzGNP
+      - _id: GSdxkKmdrUwORDEM
         name: Vigilance
         description: ''
         type: destiny
@@ -8623,7 +8620,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: kFQRDS2UvarWOrVa
+      - _id: n108xeOfHYqsEtz6
         name: Vigilance
         description: ''
         type: destiny
@@ -8658,7 +8655,7 @@ cards:
           macro: null
         width: null
         height: null
-      - _id: QhQxO9CmYq1Ty7Yb
+      - _id: 1136iKacdmjB0pF7
         name: Martyr
         description: ''
         type: destiny
@@ -8693,7 +8690,7 @@ cards:
         value: 11
         width: null
         height: null
-      - _id: rGP0PIsncAS9hiuK
+      - _id: G0gH49ZGo7Fj9KEK
         name: Action
         description: ''
         type: destiny
@@ -8728,7 +8725,7 @@ cards:
         value: 12
         width: null
         height: null
-      - _id: oQOszX7NaEqTAdtk
+      - _id: sUMAbUkL365Y8UKO
         name: Action
         description: ''
         type: destiny
@@ -8763,7 +8760,7 @@ cards:
         value: 13
         width: null
         height: null
-      - _id: PEDthqqt73E3nFH7
+      - _id: jd3pD3902gE8npFD
         name: Action
         description: ''
         type: destiny
@@ -8798,7 +8795,7 @@ cards:
         value: 14
         width: null
         height: null
-      - _id: BjWfkekozqanOOpi
+      - _id: WaaemDoLDEWye2rx
         name: Action
         description: ''
         type: destiny
@@ -8833,7 +8830,7 @@ cards:
         value: 15
         width: null
         height: null
-      - _id: NeO9qJJm7h3dcPFS
+      - _id: flY096MJRDEqavuQ
         name: Inspiration
         description: ''
         type: destiny
@@ -8868,7 +8865,7 @@ cards:
         value: 20
         width: null
         height: null
-      - _id: MD9IXra3Kg8AsoLC
+      - _id: wmmVW3BuAWlc8TdX
         name: Prise d'initiative
         description: ''
         type: destiny
@@ -8903,7 +8900,7 @@ cards:
         value: 21
         width: null
         height: null
-      - _id: y4iQoYh6HJtgNP8k
+      - _id: hoED2J13UA5nccVI
         name: Prise d'initiative
         description: ''
         type: destiny
@@ -8938,7 +8935,7 @@ cards:
         value: 22
         width: null
         height: null
-      - _id: QTbn3MU8XOCu72Qh
+      - _id: 5XDSG8KMuRDuAkQr
         name: Héros
         description: ''
         type: destiny
@@ -8973,7 +8970,7 @@ cards:
         value: 23
         width: null
         height: null
-      - _id: 49VU9IQRlnGTk95V
+      - _id: MMGtBFAm28RCpPey
         name: Héros
         description: ''
         type: destiny
@@ -9008,7 +9005,7 @@ cards:
         value: 24
         width: null
         height: null
-      - _id: Ahda2A3mbeLP8jMa
+      - _id: 7PD9wyYVPMvKqHx9
         name: Héros
         description: ''
         type: destiny
@@ -9043,7 +9040,7 @@ cards:
         value: 25
         width: null
         height: null
-      - _id: XLnggniF6MeKbQb0
+      - _id: CVedLEV9mHMeO2Na
         name: Héros
         description: ''
         type: destiny
@@ -9078,7 +9075,7 @@ cards:
         value: 26
         width: null
         height: null
-      - _id: P0dXYdycAU8vaEHE
+      - _id: 31rUxC9ZRJto244d
         name: Echec de l'adversaire
         description: ''
         type: destiny
@@ -9113,7 +9110,7 @@ cards:
         value: 27
         width: null
         height: null
-      - _id: HEAktogbcv9wQjBX
+      - _id: l5KHAcwzPWDPJrH4
         name: Echec de l'adversaire
         description: ''
         type: destiny
@@ -9148,7 +9145,7 @@ cards:
         value: 28
         width: null
         height: null
-      - _id: dKqAsnEqw4X3JYiH
+      - _id: mgi1wocVs4bCZ2LH
         name: Ralliement
         description: ''
         type: destiny
@@ -9183,7 +9180,7 @@ cards:
         value: 29
         width: null
         height: null
-      - _id: 2iLwtpYNKXvKM3Zs
+      - _id: rDUiEqT4mL41ZeLN
         name: Seconde Chance
         description: ''
         type: destiny
@@ -9218,7 +9215,7 @@ cards:
         value: 30
         width: null
         height: null
-      - _id: A3spRSjAWL0WtBLW
+      - _id: lreeQf6qrTai2AoC
         name: Seconde Chance
         description: ''
         type: destiny
@@ -9253,7 +9250,7 @@ cards:
         value: 31
         width: null
         height: null
-      - _id: p2TpBQgnlayrH0nL
+      - _id: aXMB0Pq5dndd4weD
         name: Seconde Chance
         description: ''
         type: destiny
@@ -9288,7 +9285,7 @@ cards:
         value: 32
         width: null
         height: null
-      - _id: 2jNqAJZ7F5EIbvwY
+      - _id: pt7xXvhQu6MsHmHc
         name: Coup de Grâce
         description: ''
         type: destiny
@@ -9323,7 +9320,7 @@ cards:
         value: 41
         width: null
         height: null
-      - _id: NYX7KoR7GPdDQbKZ
+      - _id: I7vbbKAbJkzJx7x3
         name: Coup de Grâce
         description: ''
         type: destiny
@@ -9358,7 +9355,7 @@ cards:
         value: 42
         width: null
         height: null
-      - _id: NAwZk85l54xNeKGw
+      - _id: 4Nn2mV7gnSj1MXWx
         name: Coup de Grâce
         description: ''
         type: destiny
@@ -9393,7 +9390,7 @@ cards:
         value: 43
         width: null
         height: null
-      - _id: Y3MABirDhmLgkwCW
+      - _id: hmqbBayTwcep9Qtm
         name: Drame
         description: ''
         type: destiny
@@ -9428,7 +9425,7 @@ cards:
         value: 46
         width: null
         height: null
-      - _id: iDgmTUMMdrKEXU8J
+      - _id: w54Ls1OjTXEqk5MY
         name: Drame
         description: ''
         type: destiny
@@ -9463,7 +9460,7 @@ cards:
         value: 47
         width: null
         height: null
-      - _id: 9uI6pOnlstYKFDF3
+      - _id: AiVVlgFcMTtIFPJZ
         name: Drame
         description: ''
         type: destiny
@@ -9498,7 +9495,7 @@ cards:
         value: 48
         width: null
         height: null
-      - _id: JE7yYbN2oB7wxxhh
+      - _id: 39RP3ZbR62eumfqe
         name: Drame
         description: ''
         type: destiny
@@ -9533,7 +9530,7 @@ cards:
         value: 49
         width: null
         height: null
-      - _id: OZJCMK2JcRcH62Us
+      - _id: q9mH9m1RT3JieliE
         name: Commandement
         description: ''
         type: destiny
@@ -9568,7 +9565,7 @@ cards:
         value: 50
         width: null
         height: null
-      - _id: zMAwMFRkMPerVMbQ
+      - _id: 9jmT4WQAyMX0k2vL
         name: Commandement
         description: ''
         type: destiny
@@ -9603,7 +9600,7 @@ cards:
         value: 51
         width: null
         height: null
-      - _id: uN9XUgHlKV34QmBD
+      - _id: dOHNBgQZR67vmM7P
         name: Soutient
         description: ''
         type: destiny
@@ -9638,7 +9635,7 @@ cards:
         value: 52
         width: null
         height: null
-      - _id: QRNI6ELNyDClV44u
+      - _id: HD3fLLVTxJD5u5dk
         name: Soutient
         description: ''
         type: destiny
@@ -9673,7 +9670,7 @@ cards:
         value: 53
         width: null
         height: null
-      - _id: dTCzNeSkFdYr3QTe
+      - _id: nJX7rIqWz5n4iHxo
         name: Soutient
         description: ''
         type: destiny
@@ -9708,7 +9705,7 @@ cards:
         value: 54
         width: null
         height: null
-      - _id: YWcu76HQJDo6LNoX
+      - _id: 81NYqosyOUu4OMWB
         name: Soutient
         description: ''
         type: destiny
@@ -9743,7 +9740,7 @@ cards:
         value: 55
         width: null
         height: null
-      - _id: SF5ooJQ5pDA08luB
+      - _id: z0tip7j0UNk4for7
         name: Second souffle
         description: ''
         type: destiny
@@ -9778,7 +9775,7 @@ cards:
         value: 56
         width: null
         height: null
-      - _id: QwhaMbWtLEN5zKtY
+      - _id: r7MtwSlXxbWSauJa
         name: Second souffle
         description: ''
         type: destiny
@@ -9813,7 +9810,7 @@ cards:
         value: 57
         width: null
         height: null
-      - _id: OwqgbFKZXr9kzhnu
+      - _id: H3kgjiYqcPEkL6SL
         name: Transfer
         description: ''
         type: destiny
@@ -9848,7 +9845,7 @@ cards:
         value: 58
         width: null
         height: null
-      - _id: Eevs4Gahak0PvGj7
+      - _id: dVWzajA13gSRsAIy
         name: Coup de Grâce
         description: ''
         type: destiny
@@ -9992,8 +9989,8 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793284556479
-  modifiedTime: 1793370409960
-  lastModifiedBy: Iv6xqmV7YXpxJqTA
+  modifiedTime: 1793444711816
+  lastModifiedBy: VLUYtUykEuky2tVx
   compendiumSource: null
   duplicateSource: null
   exportSource: null
