@@ -31,11 +31,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -68,11 +66,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -105,11 +101,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -140,11 +134,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -190,12 +182,9 @@ actors:
           bestowedBy: null
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
-          W32Zl65V9atvPk8o: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -220,7 +209,7 @@ actors:
         statuses: []
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -314,7 +303,7 @@ actors:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -347,7 +336,7 @@ actors:
         statuses: []
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -834,7 +823,7 @@ actors:
     _stats:
       compendiumSource: >-
         Compendium.te002-up-the-creek.Au-dela-du-fleuve-acteurs-fr.Actor.54p6nHqBs9iiJgLu
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -902,7 +891,7 @@ actors:
           default: 0
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -964,7 +953,7 @@ actors:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.369'
+              coreVersion: '14.370'
               systemId: torgeternity
               systemVersion: 14.7.4
               createdTime: null
@@ -1011,7 +1000,7 @@ actors:
           default: 0
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1056,10 +1045,9 @@ actors:
           bestowedBy: null
         ownership:
           default: 0
-          W32Zl65V9atvPk8o: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1113,7 +1101,7 @@ actors:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1569,7 +1557,7 @@ actors:
     _stats:
       compendiumSource: >-
         Compendium.te002-up-the-creek.Au-dela-du-fleuve-acteurs-fr.Actor.CSwiaWviKWIddgfI
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -1609,11 +1597,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1648,11 +1634,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1686,11 +1670,9 @@ actors:
           attuned: false
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1739,12 +1721,9 @@ actors:
           bestowedBy: null
         ownership:
           default: 0
-          229W3PtpCQ0fUX2D: 3
-          tYOADsaIFknEkG7T: 3
-          W32Zl65V9atvPk8o: 3
         _stats:
           compendiumSource: null
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           lastModifiedBy: null
@@ -1774,10 +1753,9 @@ actors:
         sort: 0
         ownership:
           default: 0
-          Iv6xqmV7YXpxJqTA: 3
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2230,7 +2208,7 @@ actors:
     _stats:
       compendiumSource: >-
         Compendium.te002-up-the-creek.Au-dela-du-fleuve-acteurs-fr.Actor.YzuXeq8izmqQ2hZH
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -2267,7 +2245,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2299,7 +2277,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2331,7 +2309,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2363,7 +2341,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2395,7 +2373,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2426,7 +2404,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2458,7 +2436,7 @@ journal:
         flags:
           core: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -2472,7 +2450,7 @@ journal:
     _stats:
       systemId: torgeternity
       systemVersion: 14.7.4
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2525,20 +2503,19 @@ scenes:
       torgeternity:
         cosm: none
         zone: pure
-        dimLightThreshold: 0.2
-        darkThreshold:
-          magic: 0
-          social: 0
-          spirit: 0
-          tech: 0
+        dimLightThreshold: 0.3
+        darkThreshold: 0.6
         axioms:
           magic: 0
           social: 0
           spirit: 0
           tech: 0
+        cosm2: none
+        otherName1: ''
+        otherName2: ''
     regions: []
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -2555,7 +2532,7 @@ scenes:
         luminosity: 0
         enabled: true
         darkness:
-          max: 1
+          max: 0.9
           min: 0
         alpha: 0.5
         bright: false
@@ -2615,6 +2592,16 @@ scenes:
           levels: []
         sort: 0
         flags: {}
+        _stats:
+          coreVersion: '14.370'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
     shiftX: 0
     shiftY: 0
     initialLevel: defaultLevel0000
@@ -2667,8 +2654,8 @@ scenes:
         displayCosm2: true
         isMixed: false
         cosm2: coreEarth
-        dimLightThreshold: 0.2
-        darkThreshold: null
+        dimLightThreshold: 0.3
+        darkThreshold: 0.6
         axioms:
           magic: 1
           social: 7
@@ -2678,7 +2665,7 @@ scenes:
         otherName2: ''
     regions: []
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -2695,7 +2682,7 @@ scenes:
         luminosity: 0
         enabled: true
         darkness:
-          max: 1
+          max: 0.9
           min: 0
         alpha: 0.5
         bright: false
@@ -2755,6 +2742,16 @@ scenes:
           levels: []
         sort: 0
         flags: {}
+        _stats:
+          coreVersion: '14.370'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
     shiftX: 0
     shiftY: 0
     initialLevel: defaultLevel0000
@@ -8194,8 +8191,8 @@ scenes:
       torgeternity:
         cosm: livingLand
         zone: pure
-        dimLightThreshold: 0.2
-        darkThreshold: null
+        dimLightThreshold: 0.3
+        darkThreshold: 0.6
         axioms:
           magic: 1
           social: 7
@@ -8207,7 +8204,7 @@ scenes:
       core: {}
     regions: []
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -8224,7 +8221,7 @@ scenes:
         luminosity: 0
         enabled: false
         darkness:
-          max: 1
+          max: 0.9
           min: 0
         alpha: 0.5
         bright: false
@@ -8284,6 +8281,16 @@ scenes:
           levels: []
         sort: 0
         flags: {}
+        _stats:
+          coreVersion: '14.370'
+          systemId: torgeternity
+          systemVersion: 14.7.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
     shiftX: 0
     shiftY: 0
     initialLevel: defaultLevel0000
@@ -8326,7 +8333,7 @@ cards:
             sheetClass: ''
         value: 1
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8361,7 +8368,7 @@ cards:
         flags: {}
         value: 2
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8396,7 +8403,7 @@ cards:
         flags: {}
         value: 3
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8431,7 +8438,7 @@ cards:
         flags: {}
         value: 4
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8466,7 +8473,7 @@ cards:
         flags: {}
         value: 5
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8501,7 +8508,7 @@ cards:
         flags: {}
         value: 6
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8536,7 +8543,7 @@ cards:
         flags: {}
         value: 7
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8571,7 +8578,7 @@ cards:
         flags: {}
         value: 8
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8606,7 +8613,7 @@ cards:
         flags: {}
         value: 9
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8641,7 +8648,7 @@ cards:
         flags: {}
         value: 10
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8675,7 +8682,7 @@ cards:
         sort: 10
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8710,7 +8717,7 @@ cards:
         sort: 11
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8745,7 +8752,7 @@ cards:
         sort: 12
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8780,7 +8787,7 @@ cards:
         sort: 13
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8815,7 +8822,7 @@ cards:
         sort: 14
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8850,7 +8857,7 @@ cards:
         sort: 19
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8885,7 +8892,7 @@ cards:
         sort: 20
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8920,7 +8927,7 @@ cards:
         sort: 21
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8955,7 +8962,7 @@ cards:
         sort: 22
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -8990,7 +8997,7 @@ cards:
         sort: 23
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9025,7 +9032,7 @@ cards:
         sort: 24
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9060,7 +9067,7 @@ cards:
         sort: 25
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9095,7 +9102,7 @@ cards:
         sort: 26
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9130,7 +9137,7 @@ cards:
         sort: 27
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9165,7 +9172,7 @@ cards:
         sort: 28
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9200,7 +9207,7 @@ cards:
         sort: 29
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9235,7 +9242,7 @@ cards:
         sort: 30
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9270,7 +9277,7 @@ cards:
         sort: 31
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9305,7 +9312,7 @@ cards:
         sort: 40
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9340,7 +9347,7 @@ cards:
         sort: 41
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9375,7 +9382,7 @@ cards:
         sort: 42
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9410,7 +9417,7 @@ cards:
         sort: 45
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9445,7 +9452,7 @@ cards:
         sort: 46
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9480,7 +9487,7 @@ cards:
         sort: 47
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9515,7 +9522,7 @@ cards:
         sort: 48
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9550,7 +9557,7 @@ cards:
         sort: 49
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9585,7 +9592,7 @@ cards:
         sort: 50
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9620,7 +9627,7 @@ cards:
         sort: 51
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9655,7 +9662,7 @@ cards:
         sort: 52
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9690,7 +9697,7 @@ cards:
         sort: 53
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9725,7 +9732,7 @@ cards:
         sort: 54
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9760,7 +9767,7 @@ cards:
         sort: 55
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9795,7 +9802,7 @@ cards:
         sort: 56
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9830,7 +9837,7 @@ cards:
         sort: 57
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9865,7 +9872,7 @@ cards:
         sort: 39
         flags: {}
         _stats:
-          coreVersion: '14.369'
+          coreVersion: '14.370'
           systemId: torgeternity
           systemVersion: 14.7.4
           createdTime: null
@@ -9886,7 +9893,7 @@ cards:
     flags:
       core: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -9915,7 +9922,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -9934,7 +9941,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -9953,7 +9960,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -9972,7 +9979,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.369'
+      coreVersion: '14.370'
       systemId: torgeternity
       systemVersion: 14.7.4
       createdTime: null
@@ -9985,11 +9992,11 @@ _id: 3WjttA0xmDbHLGBP
 folder: null
 flags: {}
 _stats:
-  coreVersion: '14.369'
+  coreVersion: '14.370'
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793284556479
-  modifiedTime: 1793444711816
+  modifiedTime: 1794098274436
   lastModifiedBy: VLUYtUykEuky2tVx
   compendiumSource: null
   duplicateSource: null
