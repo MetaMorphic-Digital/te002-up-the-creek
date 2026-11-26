@@ -11,7 +11,8 @@ sort: 0
 actors:
   - name: Gospog of the 1st Planting
     type: threat
-    img: modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting-large.webp
+    img: >-
+      modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting.Avatar.webp
     items:
       - _id: v9ZiZiN2D7r85pB0
         name: Mindless
@@ -42,7 +43,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -75,7 +76,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -109,7 +110,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -146,7 +147,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -193,7 +194,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -558,9 +559,11 @@ actors:
         sizeBonus: normal
         clearance: alpha
         possibilityPotential: Never
+        threatcardbg: >-
+          modules/te002-up-the-creek/portraits/Gospog_of_the_1st_Planting-large.webp
       editstate: false
     ownership:
-      default: 0
+      default: 1
     prototypeToken:
       flags: {}
       name: Gospog of the 1st Planting
@@ -645,7 +648,7 @@ actors:
       compendiumSource: Compendium.te002-up-the-creek.up-the-creek-actors.Actor.5aHb1izzezoDDJ2s
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -655,7 +658,7 @@ actors:
     sort: 0
   - name: Tyrannosaurus Rex
     type: threat
-    img: modules/te002-up-the-creek/portraits/tyrannosaurus-large.webp
+    img: modules/te002-up-the-creek/portraits/Tyrannosaurus_Rex.Avatar.webp
     items:
       - _id: z3ey0ggbjvovul6b
         name: Dread
@@ -685,7 +688,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -714,7 +717,7 @@ actors:
               compendiumSource: null
               coreVersion: '14.370'
               systemId: torgeternity
-              systemVersion: 14.7.4
+              systemVersion: 14.7.8
               lastModifiedBy: null
               createdTime: null
               modifiedTime: null
@@ -772,7 +775,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -802,7 +805,7 @@ actors:
               compendiumSource: null
               coreVersion: '14.370'
               systemId: torgeternity
-              systemVersion: 14.7.4
+              systemVersion: 14.7.8
               lastModifiedBy: null
               createdTime: null
               modifiedTime: null
@@ -896,7 +899,7 @@ actors:
               compendiumSource: null
               coreVersion: '14.370'
               systemId: torgeternity
-              systemVersion: 14.7.4
+              systemVersion: 14.7.8
               lastModifiedBy: null
               createdTime: null
               modifiedTime: null
@@ -951,7 +954,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -991,7 +994,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -1038,7 +1041,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -1403,9 +1406,10 @@ actors:
         sizeBonus: veryLarge
         clearance: alpha
         possibilityPotential: Never
+        threatcardbg: modules/te002-up-the-creek/portraits/tyrannosaurus-large.webp
       editstate: false
     ownership:
-      default: 0
+      default: 1
     prototypeToken:
       flags: {}
       name: Tyrannosaurus Rex
@@ -1489,7 +1493,7 @@ actors:
       compendiumSource: Compendium.te002-up-the-creek.up-the-creek-actors.Actor.EHdJP6Of2yN5i33I
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1499,7 +1503,7 @@ actors:
     sort: 0
   - name: Edeinos Warrior
     type: threat
-    img: modules/te002-up-the-creek/portraits/edeinos-warrior-large.webp
+    img: modules/te002-up-the-creek/portraits/Edeinos_Warrior.Avatar.webp
     items:
       - _id: EFnpDxa4HfQAu7iz
         name: Whirlwind
@@ -1554,7 +1558,7 @@ actors:
               compendiumSource: null
               coreVersion: '14.370'
               systemId: torgeternity
-              systemVersion: 14.7.4
+              systemVersion: 14.7.8
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -1598,7 +1602,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -1647,7 +1651,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -1704,7 +1708,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -1753,7 +1757,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -1806,7 +1810,7 @@ actors:
           compendiumSource: null
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           lastModifiedBy: null
           createdTime: null
           modifiedTime: null
@@ -2180,9 +2184,10 @@ actors:
         sizeBonus: normal
         clearance: alpha
         possibilityPotential: Rare (2)
+        threatcardbg: modules/te002-up-the-creek/portraits/edeinos-warrior-large.webp
       editstate: false
     ownership:
-      default: 0
+      default: 1
     prototypeToken:
       flags: {}
       name: Edeinos Warrior
@@ -2266,7 +2271,7 @@ actors:
       compendiumSource: Compendium.te002-up-the-creek.up-the-creek-actors.Actor.LxMOmJL1mV6s2rho
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2300,7 +2305,7 @@ journal:
         flags: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2332,7 +2337,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2458,7 +2463,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2491,7 +2496,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2524,7 +2529,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2595,7 +2600,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2655,7 +2660,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2739,7 +2744,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2753,7 +2758,7 @@ journal:
       core: {}
     _stats:
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       coreVersion: '14.370'
       createdTime: null
       modifiedTime: null
@@ -2792,7 +2797,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2824,7 +2829,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2856,7 +2861,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2887,7 +2892,7 @@ journal:
         flags: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2917,7 +2922,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2949,7 +2954,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -2982,7 +2987,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -3014,7 +3019,7 @@ journal:
           core: {}
         _stats:
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           coreVersion: '14.370'
           createdTime: null
           modifiedTime: null
@@ -3029,7 +3034,7 @@ journal:
       core: {}
     _stats:
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       coreVersion: '14.370'
       createdTime: null
       modifiedTime: null
@@ -3100,7 +3105,7 @@ scenes:
       compendiumSource: Compendium.te002-up-the-creek.up-the-creek-scenes.Scene.Xv70JC1JdMri1Zvr
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -3176,7 +3181,7 @@ scenes:
         _stats:
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
@@ -8637,7 +8642,7 @@ scenes:
     _stats:
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -8714,7 +8719,7 @@ scenes:
         _stats:
           coreVersion: '14.370'
           systemId: torgeternity
-          systemVersion: 14.7.4
+          systemVersion: 14.7.8
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
@@ -8749,7 +8754,7 @@ folders:
     _stats:
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -8768,7 +8773,7 @@ folders:
     _stats:
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -8787,7 +8792,7 @@ folders:
     _stats:
       coreVersion: '14.370'
       systemId: torgeternity
-      systemVersion: 14.7.4
+      systemVersion: 14.7.8
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -8802,7 +8807,7 @@ _stats:
   systemId: torgeternity
   systemVersion: 14.7.4
   createdTime: 1793283533619
-  modifiedTime: 1794098287571
+  modifiedTime: 1795687605462
   lastModifiedBy: VLUYtUykEuky2tVx
   compendiumSource: null
   duplicateSource: null
